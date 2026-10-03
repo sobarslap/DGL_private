@@ -43,7 +43,7 @@ One place to track the Dogetlawyer content work: the original brief, the boss's 
 | Case 04 (1:59) | Script done; video restored to Chambers paper / Playfair | **R. Price contradiction**; s.38 wording (see §9.6) |
 | Case 05 (liability caps) | Rendered; script `.md` exists | Script file **not yet reviewed in this tracker** |
 | Cases 06–08 | Not started | Formats proposed: myth-buster, checklist, timeline |
-| **Shorts 01–15 (title-card sheet)** | First-frame cards exist for 15 | Numbering conflicts with the script files; 05–15 have no scripts here (see §11A) |
+| **Shorts 01–15 (Design canvas)** | Title cards done for all 15; 12 and 14 gated | No scripts or videos seen; numbering conflicts with the Case Files (see §11A) |
 | Dashboard (`/dashboard/professional`) | **Never audited** | A bot-protection wall blocks automated browsers; needs screenshots |
 
 ---
@@ -593,36 +593,80 @@ Source URL: https://www.gov.uk/government/consultations/consultation-on-the-impl
 
 ---
 
-## 11A. Dogetlawyer Shorts — 15 first-frame title cards (separate sheet)
+## 11A. Dogetlawyer Shorts — 15 first-frame title cards
 
-Source: a sheet titled "Dogetlawyer Shorts — first-frame title cards · 9:16 (1080×1920)", shared 3 Oct 2026. It is **not** in the Case 02–05 files or the Desktop transcript.
+- **Source:** the Claude Design canvas "Shorts Title Cards", https://claude.ai/artifact/W4cAcfRvYaUMKU2QwpnAhu (created 29 Sep 2026). All 15 artboards and the canvas index were read in full on 3 Oct 2026.
+- **Status:** these are **first-frame title cards only**. No scripts or videos exist for them in the material reviewed.
+- **Design:**
+  - 540×960 artboards (export at 1080×1920)
+  - Ground `#0B1A2B`, brand orange `#E86A2C`
+  - Anton headlines, Archivo body
+  - Each card has a large ghost number, a "DOGETLAWYER" label, a category pill, a headline, a subline, an optional law-date tag, and a dogetlawyer.com footer
+- **Category pill colours:**
+  - Orange: Contract control, Late payment, Independent review
+  - Blue: Contract review, IP & copyright, Data & privacy
+  - Purple: Scope & change
+  - Teal: Employment, Voice & transcript
+  - Amber: Business health
 
-- **Cards:** 15, all on ink-navy with the DOGETLAWYER label.
-- **How these were read:** the titles come from a low-resolution screenshot. Small subtitles, tags and the notes under cards 11, 12 and 14 can't be read, so check every title against the original.
+| # | Board title | Category pill | Headline | Subline | Law/date tag |
+|---|---|---|---|---|---|
+| 01 | Fourth Friday | Contract control | FOURTH FRIDAY. STILL UNPAID. | The work's delivered. The invoice isn't paid. Again. | — |
+| 02 | Unlimited liability | Contract review | £900 FEE. UNLIMITED LIABILITY? | A small fee. A clause with no limit. Read it before you sign. | — |
+| 03 | Renewal deadline | Contract control | DECEMBER RENEWAL. OCTOBER DEADLINE. | The renewal date and the date you must act aren't the same. | — |
+| 04 | Revision 17 | Scope & change | "TINY CHANGE." NUMBER 17. | The quote was £750. Then the requests kept growing. | — |
+| 05 | Customer harassment | Employment | DON'T UPSET THE CUSTOMER. | Your best customer is making your staff uncomfortable. | Great Britain · stronger duties scheduled for 30 October 2026 |
+| 06 | Probation review | Employment | PROBATION REVIEW: POSTPONED AGAIN. | A six-month probation clause doesn't remove employee rights. | Great Britain · scheduled from 1 January 2027 |
+| 07 | Sick pay | Employment | 7:12 A.M. "I'M TOO ILL TO WORK." | Your handbook may still be using the old sick-pay rule. | UK · in force since 6 April 2026 |
+| 08 | Paternity leave | Employment | NEW STARTER. BABY DUE. OLD POLICY. | Day-one leave and day-one pay are different questions. | Great Britain · in force since 6 April 2026 |
+| 09 | Copyright | IP & copyright | PAID FOR IT. OWN THE COPYRIGHT? | Paying the invoice doesn't always transfer the copyright. | — |
+| 10 | Business health | Business health | £20,000 SALES. £600 AVAILABLE. | The diary's full. So why is Friday still stressful? | — |
+| 11 | Which final? | Contract control | FINAL. FINAL2. FINAL_ACTUALLY_FINAL. | Everyone has the contract. Do you have the same one? | — |
+| 12 | Voice (gated) | Voice & transcript + **⏸ GATED** | SAME CLAUSE. SIXTH TIME. | You know the question. You just don't want to type it. | — |
+| 13 | Data & privacy | Data & privacy | NAME. ADDRESS. SIGNATURE. | You're sending the contract. What else goes with it? | — |
+| 14 | Guarantee (gated) | Independent review + **⏸ RESERVE** | COMPANY DEAL. PERSONAL GUARANTEE? | 'Just the last signature.' Then you see this box. | — |
+| 15 | Just sue them | Late payment | "JUST SUE THEM." HOW LONG? | Court isn't automatically a quick cash fix. | England & Wales · small claims, Apr–Jun 2026 median issue-to-trial |
 
-| # | First-frame title (as read) | Likely subject | Matches a written case file? |
-|---|---|---|---|
-| 01 | FOURTH FRIDAY. STILL UNPAID. | Late payment | ✅ Case 01 |
-| 02 | £900 FEE. UNLIMITED LIABILITY? | Liability caps | ~ Case 05 topic (different hook) |
-| 03 | DECEMBER RENEWAL. OCTOBER DEADLINE. | Auto-renewal notice deadline | ~ Case 02 topic (dates differ: 14 Oct / 16 Jul in the script) |
-| 04 | "TINY CHANGE." NUMBER 17. | Unrecorded scope changes | ~ Case 03 topic (partly) |
-| 05 | DON'T UPSET THE CUSTOMER. | Avoiding the awkward chase / dispute | ☐ none |
-| 06 | PROBATION REVIEW POSTPONED AGAIN. | Probation | ☐ none (watch rule 4) |
-| 07 | 7:12 A.M. "I'M TOO ILL TO WORK." | Sickness absence / SSP | ☐ none |
-| 08 | NEW STARTER. BABY DUE. OLD POLICY. | Family leave policy | ☐ none |
-| 09 | PAID FOR IT. OWN THE COPYRIGHT? | IP in commissioned work | ☐ none |
-| 10 | £20,000 SALES. £600 AVAILABLE. | Cash flow / payment terms | ☐ none |
-| 11 | FINAL, FINAL2, FINAL_ACTUALLY_FINAL | Version control / signed version | ☐ none (has a note below the card) |
-| 12 | SAME CLAUSE. SIXTH TIME. | Clause reuse / templates | ☐ none (has a note; watch the template rule) |
-| 13 | NAME. ADDRESS. SIGNATURE. | Contract execution / signing | ☐ none |
-| 14 | COMPANY DEAL. PERSONAL GUARANTEE? | Personal guarantees | ☐ none (has a note) |
-| 15 | "JUST SUE THEM." HOW LONG? | Litigation time and cost | ☐ none (MoJ civil justice statistics fit here) |
+**Notes on the canvas (verbatim):**
 
-**Numbering conflict:** in the scripts, Case 02 = renewal, 03 = what was agreed, 04 = written statement, 05 = liability caps. On this sheet, 02 = liability, 03 = renewal, 04 = tiny change, and the written statement doesn't appear. Decide which numbering is canonical.
+- **Teal note (under 01):** "All hooks are problem statements — no prices, offers, '115', 'compliance engine', 'UK-only' or 'certified'. Keep it that way in captions and pinned comments."
+- **Orange note, GATED (under 12):** "Voice (Claim 3): publish only after dictation + read-aloud are verified on the filming account/device. No BSL, realtime or certification claims."
+- **Orange note, GATED (under 14):** "Telelegal (Claim 2): reserve until a working booking route + an available professional are confirmed. Otherwise use the fallback (drop the Telelegal label + booking CTA)."
 
-- [ ] Get the full-resolution sheet and its source file. Confirm the titles and read the notes under cards 11, 12 and 14.
-- [ ] Decide on canonical numbering (scripts vs Shorts sheet).
-- [ ] Shorts 05–15 need scripts. Check each against P1–P6 (especially 06 → rule 4, 12 → the template rule).
+**Corrections to my earlier reading of the screenshot:**
+
+- 05 is customer harassment of staff, not the awkward chase.
+- 10 is business health / cash flow.
+- 12 is a **voice/dictation** demo, not clause reuse.
+- 13 is **data & privacy** (what personal data goes out with a contract), not signing.
+- 14 is a **Tele-legal "independent review"** short about personal guarantees.
+
+**How the Shorts map to the long Case Files:**
+
+| Short | Long Case File |
+|---|---|
+| 01 | Case 01 (late payment) |
+| 02 | Case 05 (liability caps), different hook: £900 fee vs £58,400 batch |
+| 03 | Case 02 (auto-renewal), different dates: December/October vs 14 Oct / 16 Jul |
+| 04 | Case 03 (unrecorded changes), partly |
+| Case 04 (written statement) | **No Short** |
+| 05–15 | No long Case File yet |
+
+**Open items:**
+
+- [ ] **Decide on canonical numbering.** The Shorts (01–15) and the Case Files (01–05) number the same topics differently.
+- [ ] **Short 12 is gated** by boss's Claim 3 / P5: verify dictation and read-aloud on the filming account first. No BSL, realtime or certification claims.
+- [ ] **Short 14 is gated** by boss's Claim 2 / P5: hold until a working Tele-legal booking route and an available professional are confirmed. Otherwise drop the Tele-legal label and the booking CTA.
+- [ ] **Short 13 (data & privacy)** must follow P6: readiness language only; no "certified", "UK-only processing" or "auto-anonymisation".
+- [ ] **Short 06 (probation)** must follow rule 4: no "compliance engine" or automated probation protection. Before publishing, check the 1 Jan 2027 date against the latest ERA 2025 commencement schedule. The subline is safe: it says a probation clause doesn't remove rights.
+- [ ] **Check every law-date tag** against GOV.UK before publishing:
+  - 05: 30 Oct 2026 harassment duties
+  - 06: 1 Jan 2027
+  - 07: SSP changes from 6 Apr 2026
+  - 08: day-one paternity leave from 6 Apr 2026 (pay still needs qualifying service, so the subline is right)
+  - 15: the MoJ small-claims median for Apr–Jun 2026
+- [ ] **Short 10 (business health)** must not imply the product manages money or recovers payment.
+- [ ] Shorts 02–15 need scripts and videos.
 
 ---
 
@@ -768,6 +812,7 @@ Source: a sheet titled "Dogetlawyer Shorts — first-frame title cards · 9:16 (
 | Case 04 video (Chambers paper restore) | Desktop session | 27.1 MiB |
 | `dogetlawyer_case-file-05_1080x1920.mp4`, `…_cover.png` | Desktop session | — |
 | Dogetlawyer VO timing sheet (`.md`) | Desktop session | Case 01 |
+| Shorts title-card canvas | https://claude.ai/artifact/W4cAcfRvYaUMKU2QwpnAhu | 15 artboards + 3 notes; read in full |
 | Boss's screenshots `1790668475729_image.png`, `1790668485550_image.png` | Desktop chat | Not stored anywhere permanent |
 | Related in Drive: `DoGetLawyer_Internship_P2_Slides`, `Internship_Report_Zubairul_Islam_Mahi_P2` (3 Google Doc copies + LaTeX PDF), `Dogetlawyer Legal Basis and Market gaps` (shared by almahmudzaman09), `dogetlawyer.com AI tool train video.mp4` | Google Drive | Not reviewed; related project material |
 
