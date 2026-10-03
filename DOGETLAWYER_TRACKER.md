@@ -1000,3 +1000,12 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
   - The ending no longer implies money was recovered
   - Schedule 2 framed as "what courts tend to look at"
   - 19 scenes instead of 25
+
+### Case 05 v3: myth-buster (3 Oct 2026), current version
+
+- **Video:** `videos/dogetlawyer_case-file-05_v3_myth-buster_1080x1920.mp4` (1:45, 25.2 MiB)
+- **Script and alternative hooks:** `scripts/case-05_v3_myth-buster.md`
+- **Renderer:** `tools/render_case05_v3_mythbuster.py`
+- **New hook:** "This one line just cost a firm £54,500"
+- **Format:** 4 myths with MYTH/TRUTH stamps, a progress bar, a recap, a 60-second challenge, and a "which myth did you believe?" comment prompt
+- **Change from v2:** the unverified 41-week MoJ figure was removed. v2 is kept for comparison.
