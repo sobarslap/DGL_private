@@ -29,6 +29,7 @@ One place to track the Dogetlawyer content work: the original brief, the boss's 
 17. [File inventory](#17-file-inventory)
 18. [Tooling and environment notes: how the videos were made](#18-tooling-and-environment-notes-how-the-videos-were-actually-made)
 19. [Desktop video session: full chronology](#19-desktop-video-session-full-chronology-times-utc-dhaka-is-6)
+20. [Performance feedback and the script rewrite brief](#20-performance-feedback-and-the-script-rewrite-brief-3-oct-2026)
 
 ---
 
@@ -946,3 +947,43 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
 - Bring Cases 01–03 in line with the per-case palette and typeface rule. Case 01 also still needs the new commercial closing card.
 - Re-encode at any bitrate, or hand over the 129 MiB masters.
 - Re-time captions once a VO is recorded.
+
+---
+
+## 20. Performance feedback and the script rewrite brief (3 Oct 2026)
+
+**Results so far (YouTube Studio, mobile screenshots):**
+
+| Video | Time live | Views | Avg % viewed | Likes | Rank |
+|---|---|---|---|---|---|
+| 🇬🇧 "Auto-Renewal Trap: UK Businesses Are Payi…" (2:00) | 8 h 56 m | **23** | **5.6%** ↓ | 0 | 8 of 10 |
+| Boss's "good example": 🇬🇧 "Why Taking Back Control Left Britain With…" (2:15), thumbnail "WHAT WOULD YOU SACRIFICE TO SAY BREXIT WORKED?" | 15 h 24 m | **439** | **57.3%** ↑ | 2 | 1 of 10 |
+
+5.6% of a 2:00 video means the average viewer leaves after about **7 seconds**. The problem is the first frames and the wording, not the length.
+
+**Boss's instructions (verbatim summary):**
+
+- Not enough views. Work on the scripts, words and sentences. They are **too generic and too basic**.
+- Use **SEO-popular words** in the Reels and make them **as conversational as possible**.
+- Use **words and phrases British people actually use**, and use them more.
+- Target **all of Britain**, not one region.
+- Topics must connect to **real, everyday problems**.
+- Language that isn't friendly to the viewer is hurting views.
+
+**How to apply it without breaking the claim rules:**
+
+- [ ] **Hook in the first 2 seconds:** a question or a "you" statement in everyday words, e.g. "Paid for a full year of something you cancelled?", not "AUTO-RENEWAL TRAP".
+- [ ] **Search words people type:** "auto renewal", "cancel contract", "late payment", "invoice not paid", "employment contract", "small business UK", "self-employed", "sole trader".
+- [ ] **UK-wide everyday English, no regional slang** (nothing like "mardy", "wee", "innit"). Use "skint", "chasing invoices", "the small print", "rolled over", "fobbed off", "out of pocket", "on the hook".
+- [ ] **Talk like a mate, not a law firm:** short sentences, "you", contractions. Name the Act only when it adds trust.
+- [ ] **Same caps on claims:** no prices or offers, no "certified", no payment recovery (§3, §4). Conversational doesn't mean overclaiming.
+- [ ] **Title and thumbnail:** question format with a personal stake, like the good example.
+
+**Skills installed for production (in `.claude/skills/`):**
+
+| Skill | Source | Use for |
+|---|---|---|
+| `ui-ux-pro-max`, `design-system`, `design`, `brand`, `banner-design`, `ui-styling`, `slides` | nextlevelbuilder/ui-ux-pro-max-skill (MIT) | Palettes, font pairings, layout and brand tokens for frames; `banner-design` for YouTube thumbnails and covers |
+| `canvas-design` | ComposioHQ/awesome-claude-skills (Apache 2.0) | Static posters / title cards / thumbnails as PNG/PDF |
+
+**Neither skill makes or renders video.** Rendering still uses the Python + FFmpeg pipeline (or HyperFrames if adopted). The **wording** problem the boss raised is fixed in the scripts, not by these skills.
