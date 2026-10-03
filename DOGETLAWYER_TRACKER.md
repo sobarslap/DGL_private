@@ -44,7 +44,8 @@ One place to track the Dogetlawyer content work: the original brief, the boss's 
 | Case 03 (1:59) | **Rendered** (final 30 Sep, espresso ground, new closing card) + script | **3 internal contradictions** (see §8.6) |
 | Case 04 (1:59) | Script done; video restored to Chambers paper / Playfair | **R. Price contradiction**; s.38 wording (see §9.6) |
 | Case 05 (liability caps) | v1 rendered 1 Oct. **v2 rendered 3 Oct: 1:45, conversational British rewrite** (`videos/dogetlawyer_case-file-05_v2_1080x1920.mp4`, script `scripts/case-05_v2_liability-caps_conversational.md`) | v2 fixes the "settled well above it" and Schedule 2 issues; needs a VO; check the 41-week MoJ figure |
-| Cases 06–08 | Not started | Formats proposed: myth-buster, checklist, timeline |
+| Case 06 (personal guarantees) | **Rendered 3 Oct**, 1:45 (`videos/dogetlawyer_case-file-06_1080x1920.mp4`) | Needs a VO; new look: black/ivory/scarlet + Archivo Black |
+| Cases 07–08 | Not started | Unused formats: timeline; unused topics: terms changed by notice, subcontract deadlines |
 | **Shorts 01–15 (Design canvas)** | Title cards done for all 15; 12 and 14 gated | No scripts or videos seen; numbering conflicts with the Case Files (see §11A) |
 | Dashboard (`/dashboard/professional`) | **Never audited** | A bot-protection wall blocks automated browsers; needs screenshots |
 
@@ -1009,3 +1010,15 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
 - **New hook:** "This one line just cost a firm £54,500"
 - **Format:** 4 myths with MYTH/TRUTH stamps, a progress bar, a recap, a 60-second challenge, and a "which myth did you believe?" comment prompt
 - **Change from v2:** the unverified 41-week MoJ figure was removed. v2 is kept for comparison.
+
+## 21. Case File 06: Personal guarantees (3 Oct 2026)
+
+- **Video:** `videos/dogetlawyer_case-file-06_1080x1920.mp4` (1:45, 3,150 frames, 25.2 MiB) plus cover
+- **Script:** `scripts/case-06_personal-guarantees.md`
+- **Renderer:** `tools/render_case06.py`
+- **Hook:** "You run a Ltd company. So your house is safe… right?" → "So why can they come after YOUR HOUSE?"
+- **Format:** chat-message story → credit form page 4 → 5-point "check before you sign" checklist with ticks → product → "save this"
+- **Look:** court black `#121213` / ivory `#F4EFE6` / scarlet `#E0313F`; Archivo Black, Space Grotesk, IBM Plex Mono, Instrument Serif italic; halftone dot background with a scarlet edge strip
+- **Law:** Statute of Frauds 1677 s.4 (general position). No statistics.
+- [ ] Record the VO
+- [ ] Make the thumbnail ("LTD COMPANY. / YOUR HOUSE?")
