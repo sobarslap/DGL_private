@@ -1022,3 +1022,19 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
 - **Law:** Statute of Frauds 1677 s.4 (general position). No statistics.
 - [ ] Record the VO
 - [ ] Make the thumbnail ("LTD COMPANY. / YOUR HOUSE?")
+
+## 22. SEO pass on Cases 05 and 06 (3 Oct 2026)
+
+- **Research and metadata:** `scripts/seo-keywords_case-05-06.md`. Firecrawl UK search; autocomplete is blocked from the sandbox, so there are no volumes. Check in YouTube Studio → Research.
+- **Case 05 v4:** `videos/dogetlawyer_case-file-05_v4_1080x1920.mp4`, renderer `tools/render_case05_v4_seo.py`
+  - "limitation of liability clause" in the first 5 seconds
+  - "reasonableness test" / Unfair Contract Terms Act on screen
+  - Myth 3 rewritten around "enforceable"
+  - Link-in-bio ending
+- **Case 06 v2:** `videos/dogetlawyer_case-file-06_v2_1080x1920.mp4`, renderer `tools/render_case06_v2_seo.py`
+  - Opens on "Ltd company director?"
+  - "personal guarantee" spoken by 0:04
+  - GOV.UK Insolvency Service cited for home/car/savings
+  - Check 3 "carries on after you leave"
+  - Link-in-bio ending
+- [ ] **Add dogetlawyer.com as the link in bio** on every platform before posting. The videos now point there.
