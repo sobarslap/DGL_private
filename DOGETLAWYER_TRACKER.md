@@ -43,6 +43,7 @@ One place to track the Dogetlawyer content work: the original brief, the boss's 
 | Case 04 (1:59) | Script done; video restored to Chambers paper / Playfair | **R. Price contradiction**; s.38 wording (see §9.6) |
 | Case 05 (liability caps) | Rendered; script `.md` exists | Script file **not yet reviewed in this tracker** |
 | Cases 06–08 | Not started | Formats proposed: myth-buster, checklist, timeline |
+| **Shorts 01–15 (title-card sheet)** | First-frame cards exist for 15 | Numbering conflicts with the script files; 05–15 have no scripts here (see §11A) |
 | Dashboard (`/dashboard/professional`) | **Never audited** | A bot-protection wall blocks automated browsers; needs screenshots |
 
 ---
@@ -589,6 +590,39 @@ Source URL: https://www.gov.uk/government/consultations/consultation-on-the-impl
 - IR35 / contractor status
 - Renters' Rights Act 2025 for small landlords
 - IP ownership when you commission work (timeline)
+
+---
+
+## 11A. Dogetlawyer Shorts — 15 first-frame title cards (separate sheet)
+
+Source: a sheet titled "Dogetlawyer Shorts — first-frame title cards · 9:16 (1080×1920)", shared 3 Oct 2026. It is **not** in the Case 02–05 files or the Desktop transcript.
+
+- **Cards:** 15, all on ink-navy with the DOGETLAWYER label.
+- **How these were read:** the titles come from a low-resolution screenshot. Small subtitles, tags and the notes under cards 11, 12 and 14 can't be read, so check every title against the original.
+
+| # | First-frame title (as read) | Likely subject | Matches a written case file? |
+|---|---|---|---|
+| 01 | FOURTH FRIDAY. STILL UNPAID. | Late payment | ✅ Case 01 |
+| 02 | £900 FEE. UNLIMITED LIABILITY? | Liability caps | ~ Case 05 topic (different hook) |
+| 03 | DECEMBER RENEWAL. OCTOBER DEADLINE. | Auto-renewal notice deadline | ~ Case 02 topic (dates differ: 14 Oct / 16 Jul in the script) |
+| 04 | "TINY CHANGE." NUMBER 17. | Unrecorded scope changes | ~ Case 03 topic (partly) |
+| 05 | DON'T UPSET THE CUSTOMER. | Avoiding the awkward chase / dispute | ☐ none |
+| 06 | PROBATION REVIEW POSTPONED AGAIN. | Probation | ☐ none (watch rule 4) |
+| 07 | 7:12 A.M. "I'M TOO ILL TO WORK." | Sickness absence / SSP | ☐ none |
+| 08 | NEW STARTER. BABY DUE. OLD POLICY. | Family leave policy | ☐ none |
+| 09 | PAID FOR IT. OWN THE COPYRIGHT? | IP in commissioned work | ☐ none |
+| 10 | £20,000 SALES. £600 AVAILABLE. | Cash flow / payment terms | ☐ none |
+| 11 | FINAL, FINAL2, FINAL_ACTUALLY_FINAL | Version control / signed version | ☐ none (has a note below the card) |
+| 12 | SAME CLAUSE. SIXTH TIME. | Clause reuse / templates | ☐ none (has a note; watch the template rule) |
+| 13 | NAME. ADDRESS. SIGNATURE. | Contract execution / signing | ☐ none |
+| 14 | COMPANY DEAL. PERSONAL GUARANTEE? | Personal guarantees | ☐ none (has a note) |
+| 15 | "JUST SUE THEM." HOW LONG? | Litigation time and cost | ☐ none (MoJ civil justice statistics fit here) |
+
+**Numbering conflict:** in the scripts, Case 02 = renewal, 03 = what was agreed, 04 = written statement, 05 = liability caps. On this sheet, 02 = liability, 03 = renewal, 04 = tiny change, and the written statement doesn't appear. Decide which numbering is canonical.
+
+- [ ] Get the full-resolution sheet and its source file. Confirm the titles and read the notes under cards 11, 12 and 14.
+- [ ] Decide on canonical numbering (scripts vs Shorts sheet).
+- [ ] Shorts 05–15 need scripts. Check each against P1–P6 (especially 06 → rule 4, 12 → the template rule).
 
 ---
 
