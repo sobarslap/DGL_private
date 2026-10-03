@@ -43,7 +43,7 @@ One place to track the Dogetlawyer content work: the original brief, the boss's 
 | Case 02 (1:59) | **Rendered** (final 30 Sep, calendar-grid ground, new closing card) + script | Timeline wording; check the DMCC start date before release |
 | Case 03 (1:59) | **Rendered** (final 30 Sep, espresso ground, new closing card) + script | **3 internal contradictions** (see §8.6) |
 | Case 04 (1:59) | Script done; video restored to Chambers paper / Playfair | **R. Price contradiction**; s.38 wording (see §9.6) |
-| Case 05 (liability caps) | Rendered (1 Oct 14:22) + script, now recovered and reviewed (§10) | One wording risk: "settled well above it" vs the no-recovery rule |
+| Case 05 (liability caps) | v1 rendered 1 Oct. **v2 rendered 3 Oct: 1:45, conversational British rewrite** (`videos/dogetlawyer_case-file-05_v2_1080x1920.mp4`, script `scripts/case-05_v2_liability-caps_conversational.md`) | v2 fixes the "settled well above it" and Schedule 2 issues; needs a VO; check the 41-week MoJ figure |
 | Cases 06–08 | Not started | Formats proposed: myth-buster, checklist, timeline |
 | **Shorts 01–15 (Design canvas)** | Title cards done for all 15; 12 and 14 gated | No scripts or videos seen; numbering conflicts with the Case Files (see §11A) |
 | Dashboard (`/dashboard/professional`) | **Never audited** | A bot-protection wall blocks automated browsers; needs screenshots |
@@ -987,3 +987,16 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
 | `canvas-design` | ComposioHQ/awesome-claude-skills (Apache 2.0) | Static posters / title cards / thumbnails as PNG/PDF |
 
 **Neither skill makes or renders video.** Rendering still uses the Python + FFmpeg pipeline (or HyperFrames if adopted). The **wording** problem the boss raised is fixed in the scripts, not by these skills.
+
+### Case 05 v2 (3 Oct 2026)
+
+- **Video:** `videos/dogetlawyer_case-file-05_v2_1080x1920.mp4`, plus cover PNG
+  - 1:45.0, 3,150 frames, 25.2 MiB, silent AAC track for VO
+- **Script:** `scripts/case-05_v2_liability-caps_conversational.md` (VO, scenes, titles, description, sources)
+- **Renderer:** `tools/render_case05_v2.py` (Python + Pillow → FFmpeg). Run `python3 tools/render_case05_v2.py preview <seconds…>` for stills; fonts come from npm `@expo-google-fonts/{anton,inter,jetbrains-mono,eb-garamond}`.
+- **What changed:**
+  - New hook: "Signed it without reading it?"
+  - Everyday British wording throughout
+  - The ending no longer implies money was recovered
+  - Schedule 2 framed as "what courts tend to look at"
+  - 19 scenes instead of 25
