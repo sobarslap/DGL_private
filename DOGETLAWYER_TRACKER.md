@@ -1,6 +1,6 @@
 # Dogetlawyer — Content Project Tracker
 
-_Last updated: 3 Oct 2026 · Owner: @mahi_
+_Last updated: 3 Oct 2026 (after a full read of video session `session_01LMgXD1ea85H9xmxkavzVqH`) · Owner: @mahi_
 
 One place to track the Dogetlawyer content work: the original brief, the boss's claim rules, the Content Doc, every Case File video (01–05), every file and where it lives, every decision made, and every open problem.
 
@@ -27,7 +27,8 @@ One place to track the Dogetlawyer content work: the original brief, the boss's 
 15. [Decisions log](#15-decisions-log)
 16. [Open issues: master checklist](#16-open-issues--master-checklist)
 17. [File inventory](#17-file-inventory)
-18. [Tooling and environment notes](#18-tooling-and-environment-notes)
+18. [Tooling and environment notes: how the videos were made](#18-tooling-and-environment-notes-how-the-videos-were-actually-made)
+19. [Desktop video session: full chronology](#19-desktop-video-session-full-chronology-times-utc-dhaka-is-6)
 
 ---
 
@@ -37,11 +38,11 @@ One place to track the Dogetlawyer content work: the original brief, the boss's 
 |---|---|---|
 | Content Doc | Done (Claude Docs, 28 Sep 2026) | Several recommendations conflict with the boss's P1/P5/P6 rules (see §5.6) |
 | Case 01 short (42 s) | Rendered | Superseded by the long cut |
-| Case 01 long (1:59) | Rendered (caption master, silent audio) | Needs a human voiceover; stats need re-checking |
-| Case 02 (1:59) | Script + descriptions done | Timeline wording; check the DMCC start date before release |
-| Case 03 (1:59) | Script + descriptions done | **3 internal contradictions** (see §8.6) |
+| Case 01 long (1:59) | Rendered (caption master, silent audio) | **Still has the old closing card and the original navy**; never brought in line; needs VO |
+| Case 02 (1:59) | **Rendered** (final 30 Sep, calendar-grid ground, new closing card) + script | Timeline wording; check the DMCC start date before release |
+| Case 03 (1:59) | **Rendered** (final 30 Sep, espresso ground, new closing card) + script | **3 internal contradictions** (see §8.6) |
 | Case 04 (1:59) | Script done; video restored to Chambers paper / Playfair | **R. Price contradiction**; s.38 wording (see §9.6) |
-| Case 05 (liability caps) | Rendered; script `.md` exists | Script file **not yet reviewed in this tracker** |
+| Case 05 (liability caps) | Rendered (1 Oct 14:22) + script, now recovered and reviewed (§10) | One wording risk: "settled well above it" vs the no-recovery rule |
 | Cases 06–08 | Not started | Formats proposed: myth-buster, checklist, timeline |
 | **Shorts 01–15 (Design canvas)** | Title cards done for all 15; 12 and 14 gated | No scripts or videos seen; numbering conflicts with the Case Files (see §11A) |
 | Dashboard (`/dashboard/professional`) | **Never audited** | A bot-protection wall blocks automated browsers; needs screenshots |
@@ -536,39 +537,51 @@ Source URL: https://www.gov.uk/government/consultations/consultation-on-the-impl
 - [ ] **s.38 wording is too weak and too broad.** "the tribunal *can* add two weeks' pay" → it **must** award two weeks unless there are exceptional circumstances, and *may* award four. "If a worker wins *any* claim" → only claims listed in **Schedule 5**. A week's pay is also **statutory-capped**. Suggested VO: "If a worker wins a claim against you, the tribunal must add two weeks' pay. It can make it four."
 - [ ] **Overclaim in S12:** "EVERY FIELD THE LAW ASKS FOR" while showing 7 fields. The principal statement also needs employer name, start date, job title, place of work, other benefits and more. Change to "every key field", or show the full list.
 - [ ] Closing line "EVERY HIRE, COVERED FROM DAY ONE." could read as a compliance guarantee. Consider "EVERY HIRE, ON RECORD FROM DAY ONE."
-- [ ] Design notes say "**25 scenes**" but the script lists **15**. Reconcile the doc with the render.
+- [ ] The design notes say "**25 scenes**" (true of the final render, which is based on the v2 architecture), but the doc's on-screen section still lists the **15 scenes from v1**. Update the doc to match the 25-scene render.
 - [ ] Check against rule 4: no "ERA 2026 Compliance Engine" or "automated probation protection" wording anywhere. The current script is clean; keep it that way.
 
 ---
 
-## 10. Case File 05 — Liability caps
+## 10. Case File 05 — Liability caps: "Same dispute. Two businesses."
 
-- **Status:** rendered (`dogetlawyer_case-file-05_1080x1920.mp4`, cover PNG). The script/sources write-up is `dogetlawyer_case-05_script-and-descriptions.md`.
-  - ⚠ **That `.md` is not in Drive or this repo** and has **not yet been reviewed here**.
-- **How it was chosen:** the boss asked for a different *script category*. An options sheet (`dogetlawyer_case-05_script-format-options.png`) offered four formats; **D — Side-by-side** was chosen. Four untouched subjects were offered; **Liability caps** was chosen. The other three subject names aren't recorded in this transcript.
-- **Format (side-by-side):**
-  - Two fictional firms, **Harlow Bridge Joinery** and **Caldew Fabrication**, buy the same control system from the same supplier on the same terms.
-  - Both lose the same **£58,400** batch and both get the same letter capping liability at **£3,900**.
-  - The only difference: one kept the contract record.
-  - Visual motif: recurring split-screen, two-column ledger background.
-- **Turn:** a cap isn't a wall, it's a claim.
-  - UCTA 1977 **s.11(5):** the burden is on the party relying on the clause.
-  - **s.11(1):** reasonableness is judged by what was known when the contract was made.
-  - **Schedule 2:** asks about the previous course of dealing.
-  - These are all record questions. Scene 15 says plenty of caps are reasonable and do hold, so the film doesn't overclaim.
-- **Look:** deep plum and rose with **Anton** headlines; fades only, no travel or drift; act chips alternate light/dark over **7 acts**.
-- **Sources:**
-  - UCTA 1977: [s.2](https://www.legislation.gov.uk/ukpga/1977/50/section/2), [s.3](https://www.legislation.gov.uk/ukpga/1977/50/section/3), [s.6](https://www.legislation.gov.uk/ukpga/1977/50/section/6), [s.11](https://www.legislation.gov.uk/ukpga/1977/50/section/11), [Sch. 2](https://www.legislation.gov.uk/ukpga/1977/50/schedule/2)
-  - [MoJ Civil Justice Statistics Quarterly, Apr–Jun 2026](https://www.gov.uk/government/statistics/civil-justice-statistics-quarterly-april-to-june-2026/civil-justice-statistics-quarterly-april-to-june-2026)
+- **Full script:** recovered from the Desktop session and saved as [`recovered/case-05_script-and-descriptions.md`](recovered/case-05_script-and-descriptions.md). That's the version written 1 Oct 08:29; small layout fixes were applied to the render afterwards.
+- **Spec:**
+  - 1:59.0, 3,570 frames, 27.1 MiB
+  - **25 scenes in 7 acts**
+  - Delivered 1 Oct 14:22
+  - Built with `render9.py`
+- **Format:** side-by-side (the first case to use a different script category, at the boss's request).
+- **Story:**
+  - Harlow Bridge Joinery Ltd and Caldew Fabrication Ltd buy the same control system from **Mereton Systems Ltd** in May.
+  - It fails six weeks in, and both lose **£58,400**.
+  - Clause 11.3 caps liability at **£3,900** (3 months' charges).
+  - Only Caldew kept the record. Harlow takes the £3,900; Caldew "settled well above it".
+- **Law shown:**
+  - UCTA s.11(5) burden · s.3 written standard terms · s.11(1) timing · s.11(4) resources and insurance · Sch. 2 factors
+  - s.2(1) death/injury and s.6(1) title can never be excluded
+  - S15: "Plenty of caps are reasonable. And they hold."
+- **Statistics:** MoJ Civil Justice Statistics Quarterly, Apr–Jun 2026:
+  - **41.0 weeks** median from small claim to trial
+  - **55.9 weeks** for the fast, intermediate and multi-track
+  - **82,000** claims defended in the quarter
+  - The headline 571,000 claims figure was deliberately left out (it's driven by parking claims).
+- **Product scenes:**
+  - "LIABILITY CAPS · ALL SUPPLIERS": Mereton £3,900; Brayfield Plant Hire £25,000; Ivelet Logistics "price paid"
+  - Contract record: terms v4.2, sent 14 May 2026 09:12, signed 16 May, clause 11.3 flagged
+  - "Eleven orders. The same terms. All dated." (ORD-1182/1240/1311)
+- **Closing card:** "KNOW WHAT YOUR CONTRACTS CAP." / "EVERY SUPPLIER. EVERY LIMIT. IN ONE PLACE." plus the standard fine print and "All names, figures and clauses shown are fictional examples."
+- **CTA:** "Send this to whoever signs your supplier terms."
+- **Look:** plum `#241528` / blush `#F2E8EC`, rose `#E86A8A` / deep rose `#A8325C`, Anton headlines, two-column ledger background, fades only. (This is palette **P11**, which the user typed in rather than picking a listed option.)
+- **Checks done:** £58,400 ÷ £3,900 = 15.0 ("fifteen times over" ✓).
 
 ### 10.1 Open items for Case 05
 
-- [ ] **Upload `dogetlawyer_case-05_script-and-descriptions.md`** (to this repo or Drive) for a full review like Cases 02–04.
-- [ ] **Legal precision:** Schedule 2's guidelines formally apply to UCTA s.6 and s.7 (goods) cases. Courts often use them as a general guide under s.11, but the script shouldn't present them as the statutory test for every cap. Check the wording.
-- [ ] **Legal precision:** check whether the script makes clear the cap is tested under s.3 (written standard terms) / s.2(2) (negligence, other loss). That's what makes UCTA apply between two businesses at all.
-- [ ] Confirm what the MoJ civil justice statistic on screen says, and that it's attributed in-frame.
-- [ ] Check the £58,400 / £3,900 figures are labelled FICTIONAL DEMO EXAMPLE.
-- [ ] Check the case against P1–P6 (it shouldn't touch any of them, but confirm there's no CLM offer or template count).
+- [ ] **Wording risk against the "no payment recovery" rule.** S18 and the VO say Caldew "settled well above it", which ties keeping the record to getting money back. Consider "had something to put against it" without stating the outcome, or add "illustrative".
+- [ ] **S13 "what the Schedule asks":** Schedule 2 formally applies to s.6/s.7 cases; courts use it as a guide elsewhere. Reword to "the factors courts look at", or add the s.11(2) caveat.
+- [ ] S10 is correct (s.3 covers dealing on the other side's written standard terms). Keep the "whose terms were you on?" line.
+- [ ] Check the three MoJ figures against the published release before posting.
+- [ ] Platform descriptions (LinkedIn/IG/YouTube) are **not** in the recovered Case 05 doc. They still need writing.
+- [ ] Shorts card 02 (£900 fee / unlimited liability) is a different hook on the same topic. Decide whether it's a cut-down of Case 05.
 
 ---
 
@@ -672,17 +685,30 @@ Source URL: https://www.gov.uk/government/consultations/consultation-on-the-impl
 
 ## 12. Visual identity per case
 
-| Case | Ground | Accent / type | Headline typeface |
-|---|---|---|---|
-| 01 | Ink-navy `#0C1420` | Off-white `#F4F1EA`, clay `#E4552B` | Big Shoulders Display |
-| 02 | Ink-navy `#0C1420` + 7-column calendar grid | Off-white `#F4F1EA`, clay `#E4552B` | Condensed sans (series) |
-| 03 | Espresso `#1C1612` + ruled paper + margin rule | Off-white `#F4F1EA`, clay `#E4552B` | Condensed sans (series) |
-| 04 | Chambers paper `#EFE9DE` / warm ink `#211619` (alternating per act) | Near-black `#1A1512`, oxblood `#8C1F2A`; bone `#F0EAE0`, brass `#C9A227` | Playfair Display ExtraBold |
-| 05 | Deep plum (alternating light/dark act chips) | Rose | Anton |
+| Case | Ground | Accent / type | Headline typeface | Renderer |
+|---|---|---|---|---|
+| 01 short (removed) | Ink-navy `#0C1420` | Off-white `#F4F1EA`, clay `#E4552B` | Big Shoulders Display | `render.py` |
+| 01 long | Ink-navy `#0C1420` (**old closing card**) | Off-white, clay | Big Shoulders Display | `render2.py` |
+| 02 | Ink-navy + 7-column calendar grid, one warmer column | Off-white, clay | Big Shoulders Display | `render3.py` |
+| 03 | Espresso `#1C1612` + ruled paper + margin rule (chosen over forest ink, teal slate, charcoal) | Off-white, clay | Big Shoulders Display | `render4.py` |
+| 04 (final) | Chambers paper `#EFE9DE` ↔ warm ink `#211619`, alternating per act | Oxblood `#8C1F2A` / brass `#C9A227` | Playfair Display | `render7.py` |
+| 05 | Plum `#241528` ↔ blush `#F2E8EC`, two-column ledger | Rose `#E86A8A` / deep rose `#A8325C` | Anton | `render9.py` |
+| Shorts 01–15 | `#0B1A2B` | Orange `#E86A2C` + category colours | Anton / Archivo | Design canvas |
 
-**Shared across cases:** Inter (body), JetBrains Mono (labels), EB Garamond Italic (asides), the layout grid, mono labelling.
+**Case 04 went through four versions:**
 
-**Note:** Case 03's doc says off-white and clay "stay fixed" across the series. Case 04 onwards deliberately breaks that, by choice. Update the Case 03 doc's wording so the series rule isn't contradicted.
+1. Deep plum `#1C1322` with a dot grid and punched margin, Big Shoulders (`render5.py`). The boss rejected it as too similar to 01–03.
+2. Light/dark chapters, clay + teal, 25 scenes, lots of motion (`render6.py`). Too much motion.
+3. Chambers paper + Playfair, fades only (`render7.py`). **Current.**
+4. Plum + Anton (`render8.py`). Built by mistake when "case 4" meant Case 5; Case 04 was then restored to version 3.
+
+**Unused options still available for later cases:**
+
+- **Palettes:** P1 Oxblood & bone · P2 Barrister green & brass · P3 Slate & brass · P4 Oxford navy · P6 Modern aqua · P7 Sandstone & rust · P8 Court black & scarlet · P9 Petrol & copper · P10 Olive & wheat · P12 Dove & indigo
+- **Typefaces:** Bodoni Moda, Zilla Slab, Syne, Spectral, Cormorant Garamond, Fraunces, Oswald, Archivo Black, Libre Baskerville, Bebas Neue, Space Grotesk
+- **Excluded typefaces:** DM Serif Display and Instrument Serif (both lack the № glyph).
+
+**Shared across every case:** JetBrains Mono (labels), Inter (body/captions), EB Garamond Italic (asides).
 
 ---
 
@@ -760,7 +786,8 @@ Source URL: https://www.gov.uk/government/consultations/consultation-on-the-impl
 - [ ] Case 04: R. Price NOT ISSUED vs ISSUED DAY 1.
 - [ ] Case 04: s.38 wording ("must", Schedule 5 claims, statutory cap).
 - [ ] Case 04: "every field the law asks for" overclaim.
-- [ ] Case 05: review the script `.md` (not yet seen).
+- [ ] Case 05: "settled well above it" conflicts with the no-recovery rule; reword (§10.1).
+- [ ] Case 05: reword the Schedule 2 framing (§10.1).
 
 **Should fix**
 
@@ -785,7 +812,10 @@ Source URL: https://www.gov.uk/government/consultations/consultation-on-the-impl
 
 - [ ] Record human VOs (Case 01 long; any case whose read isn't recorded yet) and re-time the captions.
 - [ ] Download the high-bitrate masters (61 MB and 129 MB for Case 01, plus the others) before the Desktop session workspace expires.
-- [ ] Find and copy Case 01's VO timing sheet, the long cut's script, and the Case 05 script into this repo.
+- [x] Case 01 script, Case 01 VO timing sheet and Case 05 script recovered into `recovered/`.
+- [ ] Write the Case 05 platform descriptions (LinkedIn / IG / YouTube); they're missing from its doc.
+- [ ] Case 01: apply the new commercial closing card and its own palette and typeface (still old navy, old card).
+- [ ] Ask the video session to package the masters, renderers and fonts before its workspace is reclaimed.
 - [ ] Add the boss's two screenshots to `/assets`.
 
 **Next**
@@ -796,34 +826,123 @@ Source URL: https://www.gov.uk/government/consultations/consultation-on-the-impl
 
 ## 17. File inventory
 
+**Delivered in the Desktop session (`/mnt/user-data/outputs/`, session `session_01LMgXD1ea85H9xmxkavzVqH`):**
+
+| File | Notes |
+|---|---|
+| `dogetlawyer_case-file-01_1080x1920.mp4` | 42 s short. **Removed from outputs** when the long cut replaced it (it had "A. Rahman") |
+| `dogetlawyer_case-file-01_long_1080x1920.mp4`, `…01_cover.png` | 1:59, 27.1 MiB; old navy and old closing card |
+| `dogetlawyer_vo-timing-sheet.md` | Case 01. Recovered → [`recovered/case-01_vo-timing-sheet.md`](recovered/case-01_vo-timing-sheet.md) |
+| `dogetlawyer_script-and-descriptions.md` | Case 01 script, 45 timed cues, descriptions. Recovered → [`recovered/case-01_script-and-descriptions.md`](recovered/case-01_script-and-descriptions.md) |
+| `dogetlawyer_case-file-02_1080x1920.mp4`, `…02_cover.png`, `dogetlawyer_case-02_script-and-descriptions.md` | Final 30 Sep 13:25 |
+| `dogetlawyer_case-file-03_1080x1920.mp4`, `…03_cover.png`, `dogetlawyer_case-03_script-and-descriptions.md` | Final 30 Sep 13:55 |
+| `dogetlawyer_case-file-04_1080x1920.mp4`, `…04_cover.png`, `dogetlawyer_case-04_script-and-descriptions.md` | Restored to Chambers/Playfair, 1 Oct |
+| `dogetlawyer_case-file-05_1080x1920.mp4`, `…05_cover.png`, `dogetlawyer_case-05_script-and-descriptions.md` | 1 Oct 14:22. Script recovered → [`recovered/case-05_script-and-descriptions.md`](recovered/case-05_script-and-descriptions.md) |
+| `dogetlawyer_case-03_background-options.png` | 6 grounds for Case 03 |
+| `dogetlawyer_case-04_design-directions.png` | Directions A–D (act colours / layered panels / light-dark / full mix) |
+| `dogetlawyer_palette-options.png`, `dogetlawyer_typeface-options.png` | P1–P6, F1–F5 |
+| `dogetlawyer_palette-options-2.png`, `dogetlawyer_typeface-options-2.png` | P7–P12, F6–F11 |
+| `dogetlawyer_case-05_script-format-options.png` | Script categories A Myth-buster / B Checklist / C Timeline / D Side-by-side |
+
+**Only in that session's workspace (`/home/claude/dgl/`), not delivered:**
+
+- 129 MiB high-bitrate masters
+- Renderers `render.py`–`render9.py`
+- Option-sheet scripts `themes.py`, `themes2.py`, `themes3.py`
+- `fonts/` (30+ TTFs)
+
+This workspace is temporary. Ask that session to package what you want to keep.
+
+**Elsewhere:**
+
 | File | Where | Notes |
 |---|---|---|
-| Content Doc | Claude Docs (private) + PDF export | 13 pp.; PDF header "Untitled" |
-| `dogetlawyer_script-and-descriptions.md` | Google Drive (29 Sep 2026) | Probably Case 01; not reviewed here |
-| `dogetlawyer_case-02_script-and-descriptions.md` | Drive (Google Doc) + PDF upload | Reviewed |
-| `dogetlawyer_case-03_script-and-descriptions.md` | Drive + `.md` + PDF upload | Reviewed; `.md` = PDF |
-| `dogetlawyer_case-04_script-and-descriptions.md` | Drive (**two copies**, 1 Oct 04:24 and 06:14) + PDF upload | Reviewed; dedupe the Drive copies |
-| `dogetlawyer_case-05_script-and-descriptions.md` | Claude Desktop session only | **Not reviewed** |
-| `dogetlawyer_case-05_script-format-options.png` | Desktop session | Options sheet (A–D formats) |
-| `dogetlawyer_case-file-01_1080x1920.mp4` | Desktop session | 42 s, 25 MB |
-| `dogetlawyer_case-file-01_long_1080x1920.mp4` | Desktop session | 1:59, 27 MB |
-| Case 01 masters (61 MB CRF 20; 129 MB high bitrate) | Desktop session workspace only | Download before expiry |
-| `dogetlawyer_case-file-01_cover.png` | Desktop session | — |
-| Case 04 video (Chambers paper restore) | Desktop session | 27.1 MiB |
-| `dogetlawyer_case-file-05_1080x1920.mp4`, `…_cover.png` | Desktop session | — |
-| Dogetlawyer VO timing sheet (`.md`) | Desktop session | Case 01 |
-| Shorts title-card canvas | https://claude.ai/artifact/W4cAcfRvYaUMKU2QwpnAhu | 15 artboards + 3 notes; read in full |
-| Boss's screenshots `1790668475729_image.png`, `1790668485550_image.png` | Desktop chat | Not stored anywhere permanent |
-| Related in Drive: `DoGetLawyer_Internship_P2_Slides`, `Internship_Report_Zubairul_Islam_Mahi_P2` (3 Google Doc copies + LaTeX PDF), `Dogetlawyer Legal Basis and Market gaps` (shared by almahmudzaman09), `dogetlawyer.com AI tool train video.mp4` | Google Drive | Not reviewed; related project material |
+| Content Doc | Claude Docs + PDF export | Made in a **different** chat, not the video session |
+| Boss's P1–P6 notes and screenshots | A different chat | Not in the video session |
+| Shorts title-card canvas | https://claude.ai/artifact/W4cAcfRvYaUMKU2QwpnAhu | 15 artboards + 3 notes |
+| Scripts for Cases 02–04 | Drive (Google Docs; Case 04 has 2 copies) + uploaded PDFs | Final versions |
+| Drive: `DoGetLawyer_Internship_P2_Slides`, `Internship_Report_…_P2` (3 copies + LaTeX PDF), `Dogetlawyer Legal Basis and Market gaps`, `dogetlawyer.com AI tool train video.mp4` | Google Drive | Related; not reviewed |
 
 ---
 
-## 18. Tooling and environment notes
+## 18. Tooling and environment notes: how the videos were actually made
 
-- **Claude Desktop (Windows), connected:** used for the Content Doc, the renders, and the Case 05 options sheet.
-- **Usage limits:** hit twice in the Desktop session ("Resets Oct 5 at 4:00 AM"). The limits are shared with Claude Code.
-- **Site access:** WebFetch reaches the public pages. The built-in browser is blocked by Dogetlawyer's bot protection on `/dashboard/*`.
-- **Research:** Firecrawl was used for the UK statistics.
-- **Rendering:** a custom renderer controls palette, type and grain frame by frame. Outputs are a web encode plus a high-bitrate master.
-- **Text-to-speech:** none usable in the sandbox, so the VO must be recorded by a person or with an outside TTS service.
-- **This repo:** `sobarslap/DGL_private`, branch `claude/beautiful-lamport-e2idkm`. This tracker is its first file.
+Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavzVqH`, titled "Dogetlawyer short-form video", 29 Sep 09:48 → 1 Oct 14:22). It's a Claude Cowork session run from the **Claude in Chrome side panel**, on model `claude-opus-5`, at a reported cost of about $89.
+
+**Skills used: none.** The Skill tool was called **0 times**.
+
+- The user asked to use a skill from `github.com/zhuyansen/awesome-claude-video-skills`. Claude declined to install unvetted third-party bundles and offered to review a specific named skill instead. No skill was ever named.
+- On 30 Sep the user said "use the skills if you want and if needed only". None were used.
+
+**Tools used (number of calls):**
+
+| Tool | Calls |
+|---|---|
+| Bash | 219 |
+| Read | 88 |
+| TaskCreate / TaskUpdate | 21 / 20 |
+| SendUserFile | 18 |
+| Firecrawl search / scrape | 15 / 10 |
+| AskUserQuestion | 11 |
+| Write | 4 |
+| ToolSearch | 3 |
+| Edit | 1 |
+| SendUserMessage | 1 |
+
+**Rendering pipeline (custom code, no video library):**
+
+- **Rendering:** Python + **Pillow** draws every frame. Raw RGB frames are piped into **FFmpeg** and encoded as H.264. No Remotion, no headless browser.
+- **Effects:** numpy grain (12 noise fields) + vignette. Scene dissolves use `Image.blend` (0.42–0.45 s, later 0.30 s). Theme colours blend across light/dark act boundaries.
+- **Fonts:** TTFs pulled from npm `@expo-google-fonts/*` (Google Fonts was blocked by the proxy). Glyphs checked with fontTools.
+- **Encoding:** two-pass x264 at 1,900 kbps → 27.1 MiB (to fit the 30 MiB file-send limit). Masters at CRF ~21 ≈ 129 MiB.
+- **Re-renders:** partial re-renders splice a new tail at a keyframe (used for the Case 02/03 closing-card fix).
+- **Long jobs:** run in the background (`setsid nohup … &`) because tool calls time out.
+- **Audio:** no usable text-to-speech in the sandbox, so every video has a silent AAC track for a human VO.
+- **Product screens:** stylised mock UIs, because there was no access to the real product.
+
+**Research:** Firecrawl against primary sources (gov.uk, legislation.gov.uk, smallbusinesscommissioner.gov.uk, legalservicesboard.org.uk, plus legal-branding colour research for the palettes). A £8.9bn "unused software" figure was rejected because it came from a marketing agency.
+
+**Limits hit:**
+
+- Session limit at 1 Oct 08:34 (reset 2:50pm Dhaka).
+- Two `/compact` context compactions (30 Sep 05:49, 1 Oct 08:01).
+- The sandbox classifier timed out intermittently on 1 Oct.
+
+---
+
+## 19. Desktop video session: full chronology (times UTC; Dhaka is +6)
+
+| When | User asked / chose | What was delivered or decided |
+|---|---|---|
+| 29 Sep 09:48 | Case 01 brief (42 s, 6 scenes, ink-navy/off-white/clay, constraints) | Asked about audio and Scene 4. User replied with the VO transcript instead of choosing, so Claude used the defaults: silent master + VO sheet, mock UI |
+| 29 Sep 10:25 | — | Case 01 short (42 s, 25 MB) + cover + VO timing sheet |
+| 29 Sep 10:57 | Replace "A. Rahman" with a British name ("can't let people know it's made by Asian people"); 1:30–2:00; hook → problem → solution → Dogetlawyer; show it's a real UK problem; "better than anyone"; use the awesome-claude-video-skills repo | British names yes (concealment reason declined); skill repo declined; "better than anyone" not claimed |
+| 29 Sep 11:29 | — | Case 01 long, 1:59, 15 scenes / 7 acts, DBT/OSBC statistics |
+| 29 Sep 11:59 | "Did you use A. Rahman again?" | Checked: no. The name is only in the old 42 s file, now removed from outputs |
+| 29 Sep 12:13 | Script and description ASAP | `dogetlawyer_script-and-descriptions.md` (Case 01) |
+| 30 Sep 05:18 | Case 02 | Topic chosen: "The notice period you missed". Delivered 05:45 |
+| 30 Sep 05:55 | Case 03 | User: "merge 1 and 2" (change nobody wrote down + terms you never sent). Delivered 06:31 |
+| 30 Sep 11:50 | Closing card too narrow, make it commercial but compliant; unique background per case; redo 02 then 03 | Chose "Benefit promise + fine print" and "Tone shift + distinct texture". Case 02 re-rendered with a calendar grid. The disclaimer only showed for 0.5 s, so Claude extended it to 1.4 s on its own initiative |
+| 30 Sep 13:23 | Change the Case 03 background; show drafts | 6-option sheet; **B Espresso** chosen. Case 03 final 13:55 |
+| 1 Oct 03:52 | Case 04 with a new background | Topic: "The contract you never gave your first hire"; ground: deep plum. Delivered 04:21 |
+| 1 Oct 04:49 | **Boss:** 01–03 share the same background and fonts; hard for people with ADHD; wants multi-layered, multi-coloured content | Directions sheet; chose **C light/dark alternation**, two alternating colours, one typeface (Big Shoulders), more motion. Delivered 05:27 (25 scenes) |
+| 1 Oct 05:35 | Different background **and** font from the start; research lawyer-reel palettes; too much motion | Research found navy is overused in legal branding. Palette/typeface sheets; chose **P5 Chambers paper + F1 Playfair, fades only, keep light/dark flip**. Delivered 06:12 |
+| 1 Oct 07:22 | "Make the video for case 4… change bg and fonts" | New sheets (P7–P12, F6–F11); user chose **P11** (plum & rose) + **F8 Anton**. Delivered 07:58 |
+| 1 Oct 08:00 | "No, for case5 I meant" | Case 04 restored to Chambers/Playfair; plum + Anton moved to Case 05 |
+| 1 Oct 08:02 | **Boss:** use a different script category or people will be confused | Format sheet (A myth-buster / B checklist / C timeline / D side-by-side); chose **D**; subject **Liability caps** |
+| 1 Oct 08:34 | — | Session limit hit |
+| 1 Oct 13:58 | "Make the video for case5 now" | Case 05 delivered 14:22 |
+
+**Topics offered but never used** (good candidates for Cases 06+):
+
+- Personal guarantees
+- Terms changed by notice ("continued use means acceptance")
+- Subcontract / inherited deadlines (back-to-back obligations)
+- Job with no signed contract
+- Scope creep on its own (partly covered in 03)
+
+**Standing offers from the video session that were never taken up:**
+
+- Bring Cases 01–03 in line with the per-case palette and typeface rule. Case 01 also still needs the new commercial closing card.
+- Re-encode at any bitrate, or hand over the 129 MiB masters.
+- Re-time captions once a VO is recorded.
