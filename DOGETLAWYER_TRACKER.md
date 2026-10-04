@@ -1060,3 +1060,17 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
 - **Law:** general position only, hedged on screen. No statistics.
 - [ ] Record the VO
 - [ ] Cases 05 and 06 could be re-rendered in the multi-colour style (renderers `render_v5` / `render6c` exist in the scratchpad but were **not rendered**; the user stopped that run and asked for Case 07 instead)
+
+## 25. Case File 08: "Paid for it. Do you own the copyright?" (4 Oct 2026)
+
+- **Video:** `videos/dogetlawyer_case-file-08_1080x1920.mp4` (1:45, 3,150 frames, 25.2 MiB) plus cover
+- **Renderer:** `tools/render_case08.py`
+- **Thumbnails:** `thumbnails/case-08_thumbnail_1280x720.png`, `thumbnails/case-08_cover_1080x1920.png`
+- **Review PDF:** `deliverables/Dogetlawyer_Case-08_Script-Description-Thumbnails.pdf` (5 pages)
+- **Structure:** the boss's multi-colour slides (every scene its own two-colour gradient), with a **new palette set**:
+  - electric blue & hot pink → black & lime → sunshine yellow → teal & coral → magenta & navy → turquoise → violet & tangerine → cherry & cream
+- **Hook:** "You paid £800 for your logo. So why might it still belong to the designer?" → "PAYING ≠ OWNING"
+- **Format:** "Who owns it?" quiz (logo, website, product photos, staff's work) → permission vs ownership → the fix (written assignment) → product → comment prompt → link in bio
+- **Fonts:** Bebas Neue, DM Sans, DM Mono, Fraunces italic
+- **Law:** GOV.UK IPO "Ownership of copyright works" (quoted on screen); CDPA 1988 s.11, s.90(3). No statistics.
+- [ ] Record the VO
