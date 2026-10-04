@@ -1038,3 +1038,25 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
   - Check 3 "carries on after you leave"
   - Link-in-bio ending
 - [ ] **Add dogetlawyer.com as the link in bio** on every platform before posting. The videos now point there.
+
+## 23. Boss brief: multi-colour slides (4 Oct 2026)
+
+> "Fine, but must multi colour slides e.g. slide 1 base / background - purple and black combination, Slide 2 Gray and red, slide 3 sky-blue others"
+
+- **Palette set:** `tools/multitheme.py`, 8 two-colour gradients cycling per scene:
+  - purple & black → grey & red → sky blue → emerald & navy → charcoal & orange → pink & plum → navy & gold → mint & forest
+  - Text and accent colours are set per palette for contrast.
+- **Applies to every new video from Case 07 onwards.**
+
+## 24. Case File 07: "We're updating our terms" (4 Oct 2026)
+
+- **Video:** `videos/dogetlawyer_case-file-07_1080x1920.mp4` (1:45, 3,150 frames, 25.2 MiB) plus cover
+- **Renderer:** `tools/render_case07.py`
+- **Thumbnails:** `thumbnails/case-07_thumbnail_1280x720.png`, `thumbnails/case-07_cover_1080x1920.png`
+- **Review PDF:** `deliverables/Dogetlawyer_Case-07_Script-Description-Thumbnails.pdf` (5 pages)
+- **Hook:** "We're updating our terms and conditions." → "that email might have just put your prices up 18%"
+- **Format:** timeline (Day 1 → Day 92), then the law (variation clause; saying nothing vs carrying on ordering), Day-1 steps, product, comment prompt, link in bio
+- **Fonts:** Oswald, Manrope, Space Mono, Lora italic
+- **Law:** general position only, hedged on screen. No statistics.
+- [ ] Record the VO
+- [ ] Cases 05 and 06 could be re-rendered in the multi-colour style (renderers `render_v5` / `render6c` exist in the scratchpad but were **not rendered**; the user stopped that run and asked for Case 07 instead)
