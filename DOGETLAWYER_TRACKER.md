@@ -1085,3 +1085,5 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
 - **Video:** `videos/dogetlawyer_case-file-08_v2_1080x1920.mp4`
 - **Renderer:** `tools/render_case08_v2_calm.py`
 - **Rule going forward:** multi-colour by section, never per scene.
+
+- 4 Oct 2026: Case 08 PDF + thumbnails rebuilt for v2 (per-section colours; video path now _v2). deliverables/Dogetlawyer_Case-08_Script-Description-Thumbnails.pdf

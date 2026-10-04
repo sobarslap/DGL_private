@@ -14,7 +14,10 @@ for n,f in [('In','Inter_400Regular'),('InM','Inter_500Medium'),('InSB','Inter_6
     pdfmetrics.registerFont(TTFont(n,B+'c5/f/'+f+'.ttf'))
 pdfmetrics.registerFont(TTFont('Mono',B+'c6/f/IBMPlexMono_500Medium.ttf'))
 pdfmetrics.registerFont(TTFont('Head',B+'c6/f/ArchivoBlack_400Regular.ttf'))
-VO=json.load(open(B+'vo8.json')); THN=VO['th']
+VO=json.load(open(B+'vo8.json'))
+# v2: colour changes once per section, not per scene
+SEC=['Deep blue & magenta','Deep teal','Black & lime','Magenta & navy','Deep violet & orange']
+MAP=[0,0,0,1,2,2,2,2,2,3,3,4,4,4,4,0,0]; THN=[SEC[i] for i in MAP]
 INK=colors.HexColor('#1A1A1A'); MUT=colors.HexColor('#5A5A5A'); LINE=colors.HexColor('#DDDDDD')
 PLUM=colors.HexColor('#7A2F55'); SCA=colors.HexColor('#C21F30'); PALE=colors.HexColor('#F6F3EE')
 S=lambda name,**k: ParagraphStyle(name,**{**dict(fontName='In',fontSize=9.6,leading=13.6,textColor=INK),**k})
@@ -74,10 +77,10 @@ def case(story, key, cfg):
     story.append(PageBreak())
 
 ORANGE=colors.HexColor('#2433E0')
-C7=dict(vk='c8',accent=ORANGE,kicker='CASE FILE 08 · QUIZ FORMAT · MULTI-COLOUR SCENES (NEW PALETTE SET)',title='Paid for it. Do you own the copyright?',
- sub='“You paid £800 for your logo. So why might it still belong to the designer?”',file='videos/dogetlawyer_case-file-08_1080x1920.mp4',
+C7=dict(vk='c8',accent=ORANGE,kicker='CASE FILE 08 · QUIZ FORMAT · MULTI-COLOUR BY SECTION (v2)',title='Paid for it. Do you own the copyright?',
+ sub='“You paid £800 for your logo. So why might it still belong to the designer?”',file='videos/dogetlawyer_case-file-08_v2_1080x1920.mp4',
  format='Hook → “paying ≠ owning” → GOV.UK quote → “Who owns it?” quiz (logo, website, product photos, staff’s work) → permission vs ownership → why it bites → the fix (written assignment) → product → comment prompt → link in bio',
- look='Same structure as the brief (every scene its own colour combination) with a brand-new, brighter set: electric blue & hot pink, black & lime, sunshine yellow, teal & coral, magenta & navy, turquoise, violet & tangerine, cherry & cream, repeating. Bebas Neue headlines, DM Sans body, DM Mono labels, Fraunces italic asides; faint concentric rings in the background; progress bar along the top.',
+ look='Multi-colour, but the colour changes once per section (5 changes, not every scene) so viewers can focus on the words: hook in deep blue & magenta, the law in deep teal, the quiz in black & lime, “why it matters” in magenta & navy, the fix in deep violet, then back to blue & magenta for the close. Dark, calm backgrounds with no pattern; bright colour only on key words. Bebas Neue headlines, DM Sans body, DM Mono labels, Fraunces italic asides; progress bar along the top.',
  topic='Copyright in work you commission (logos, websites, photos): the creator owns it unless it’s assigned in writing.',
  t1='Paid for Your Logo? You Might Not Own It 🇬🇧 Copyright for UK Small Businesses', t2='Who Owns Your Logo, Website and Photos? (Copyright Quiz, UK) 🇬🇧',
  hook='“You paid eight hundred quid for your logo. So why might it still belong to the designer? Here’s the bit nobody tells you. Paying for it isn’t the same as owning it.” (On screen: YOU PAID £800 FOR YOUR LOGO. → SO WHY MIGHT IT STILL BELONG TO THE DESIGNER? → PAYING ≠ OWNING.)',
@@ -110,7 +113,7 @@ def cover(story):
     story.append(P('“Paid for it. Own the copyright?”: script, description, thumbnails and SEO',S('cs',fontSize=14,leading=19,textColor=MUT)))
     story.append(Spacer(1,8)); story.append(P('Prepared 4 October 2026',small)); story.append(Spacer(1,12))
     story.append(P('How this follows the brief',h2))
-    for t in ['<b>Multi-colour slides (same structure, new colours):</b> every scene has its own background combination, now a brighter set: electric blue &amp; hot pink, black &amp; lime, sunshine yellow, teal &amp; coral, magenta &amp; navy, turquoise, violet &amp; tangerine and cherry &amp; cream, repeating. The scene table shows the colour for each.',
+    for t in ['<b>Multi-colour slides, calmer (v2):</b> the colour now changes once per section instead of every scene (5 changes, not 17), so the text stays the focus: deep blue &amp; magenta (hook), deep teal (the law), black &amp; lime (quiz), magenta &amp; navy (why it matters), deep violet (the fix), then blue &amp; magenta again for the close. Darker backgrounds, no pattern, bright colour only on key words. The scene table shows the colour for each.',
               '<b>New hook:</b> “You paid £800 for your logo. So why might it still belong to the designer?”: money first, then a surprise.',
               '<b>New format:</b> a 4-question “Who owns it?” quiz with ✗ / ✓ reveals; viewers guess before each answer lands, which helps people keep watching.',
               '<b>New fonts:</b> Bebas Neue, DM Sans, DM Mono and Fraunces italic (not used in Cases 01–07).',
@@ -124,7 +127,7 @@ def cover(story):
         story.append(P('□ '+t)); story.append(Spacer(1,3))
     story.append(P('Files',h2))
     story.append(tbl([[P('<b>Item</b>',cell),P('<b>File (repo: sobarslap/DGL_private)</b>',cell)],
-      [P('Video',cell),P('videos/dogetlawyer_case-file-08_1080x1920.mp4 (1:45, 1080×1920, silent track for VO)',mono)],
+      [P('Video',cell),P('videos/dogetlawyer_case-file-08_v2_1080x1920.mp4 (1:45, 1080×1920, silent track for VO)',mono)],
       [P('Thumbnails',cell),P('thumbnails/case-08_thumbnail_1280x720.png · thumbnails/case-08_cover_1080x1920.png',mono)]],[35*mm,137*mm]))
     story.append(PageBreak())
 

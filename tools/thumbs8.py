@@ -1,7 +1,7 @@
 import sys; sys.path.insert(0,'/tmp/claude-0/-home-user-DGL-private/f3f04cd2-c6be-58d9-99ed-c95e44436400/scratchpad/c8')
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
-import render8 as r
+import render8b as r  # v2: calmer section colours (hook = deep blue & magenta)
 F=lambda n,s: ImageFont.truetype(r.FD+'/'+n+'.ttf',s); O='/home/user/DGL_private/thumbnails/'
 def grain(im):
     a=np.asarray(im).astype(np.float32); a+=np.random.default_rng(4).normal(0,6,a.shape[:2])[...,None]; return Image.fromarray(a.clip(0,255).astype(np.uint8))
