@@ -1074,3 +1074,14 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
 - **Fonts:** Bebas Neue, DM Sans, DM Mono, Fraunces italic
 - **Law:** GOV.UK IPO "Ownership of copyright works" (quoted on screen); CDPA 1988 s.11, s.90(3). No statistics.
 - [ ] Record the VO
+
+### Case 08 v2: calmer colours (4 Oct 2026)
+
+- **Feedback:** "too many colour changes, didn't let the user focus on the texts"
+- **Fix:**
+  - Colour changes **per section, not per scene**: 5 changes instead of 17 (hook → law → quiz → why → fix → back to the hook colours for the CTA)
+  - Darker, low-contrast gradients, with no background pattern
+  - Bright colour kept for the key words
+- **Video:** `videos/dogetlawyer_case-file-08_v2_1080x1920.mp4`
+- **Renderer:** `tools/render_case08_v2_calm.py`
+- **Rule going forward:** multi-colour by section, never per scene.
