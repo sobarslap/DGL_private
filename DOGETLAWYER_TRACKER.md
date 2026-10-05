@@ -1106,4 +1106,4 @@ Next two Shorts after 09 (copyright): **Short 10, business health** and **Short 
 | Thumbnails | `thumbnails/case-09_*` | `thumbnails/case-10_*` |
 
 - Compliance: Case 09 makes no claim that the product recovers money or manages cash (only "payment terms on record"); Case 10 makes no claim of automatic change detection (only "signed version on record"). No prices/offers/stats; demo scenes labelled; fine print on close.
-- [ ] Record VOs · [ ] Boss-review PDFs for 09 and 10 (on request)
+- [ ] Record VOs · [x] Boss-review PDFs: deliverables/Dogetlawyer_Case-09_… and _Case-10_Script-Description-Thumbnails.pdf (5 pages each; tools/mkpdf9_10.py)
