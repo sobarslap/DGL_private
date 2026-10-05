@@ -1087,3 +1087,23 @@ Source: the full transcript of the video session (`session_01LMgXD1ea85H9xmxkavz
 - **Rule going forward:** multi-colour by section, never per scene.
 
 - 4 Oct 2026: Case 08 PDF + thumbnails rebuilt for v2 (per-section colours; video path now _v2). deliverables/Dogetlawyer_Case-08_Script-Description-Thumbnails.pdf
+
+## 26. Case Files 09 and 10 (5 Oct 2026)
+
+Next two Shorts after 09 (copyright): **Short 10, business health** and **Short 11, "Which final?"**. Both follow the rule from Case 08 v2: colour per section, never per scene; dark calm grounds; bright colour only on key words. Shared engine: `tools/render_engine_v2.py`.
+
+| | Case 09 | Case 10 |
+|---|---|---|
+| Short | 10, Business health | 11, Which final? |
+| Hook | "£20,000 in sales. £600 in the bank." → "So why is Friday still stressful?" | "FINAL. FINAL2. FINAL_ACTUALLY_FINAL." → "Which one did you sign?" |
+| Format | Cash calendar → 4 lines that decide when you get paid → GOV.UK rules → ask for better terms | Spot-the-difference game (3 rounds, 3-second countdowns) → entire agreement → e-signatures → 3 checks |
+| Colours (by section) | forest & black → burgundy & charcoal → petrol blue → plum & ink → forest | charcoal & ember → navy & teal → aubergine → bottle green → charcoal & ember |
+| Fonts | Big Shoulders Display, Plus Jakarta Sans, Red Hat Mono, Newsreader italic | Bricolage Grotesque, Outfit, Fira Code, Libre Baskerville |
+| Law | GOV.UK "Late commercial payments" (quoted); LPCDA 1998 | Law Commission, Electronic execution of documents (2019) (quoted); entire agreement clause (general) |
+| Video | `videos/dogetlawyer_case-file-09_1080x1920.mp4` | `videos/dogetlawyer_case-file-10_1080x1920.mp4` |
+| Script + description | `scripts/case-09_payment-terms-cash-flow.md` | `scripts/case-10_which-final-signed-version.md` |
+| Renderer | `tools/render_case09.py` | `tools/render_case10.py` |
+| Thumbnails | `thumbnails/case-09_*` | `thumbnails/case-10_*` |
+
+- Compliance: Case 09 makes no claim that the product recovers money or manages cash (only "payment terms on record"); Case 10 makes no claim of automatic change detection (only "signed version on record"). No prices/offers/stats; demo scenes labelled; fine print on close.
+- [ ] Record VOs · [ ] Boss-review PDFs for 09 and 10 (on request)
