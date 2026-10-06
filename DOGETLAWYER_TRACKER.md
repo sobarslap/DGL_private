@@ -1107,3 +1107,34 @@ Next two Shorts after 09 (copyright): **Short 10, business health** and **Short 
 
 - Compliance: Case 09 makes no claim that the product recovers money or manages cash (only "payment terms on record"); Case 10 makes no claim of automatic change detection (only "signed version on record"). No prices/offers/stats; demo scenes labelled; fine print on close.
 - [ ] Record VOs · [x] Boss-review PDFs: deliverables/Dogetlawyer_Case-09_… and _Case-10_Script-Description-Thumbnails.pdf (5 pages each; tools/mkpdf9_10.py)
+
+## 27. Performance diagnosis and Case Files 11 and 12 (6 Oct 2026)
+
+**Diagnosis (screenshot: "The 4-Word Clause That Lets Suppliers Tak…", 2:01, 32 views in 3h17m, avg viewed 4.7% ≈ 6 s):** viewers swipe in the first seconds. Causes: a static text first frame, too long, no voice, a thumbnail ("SCAM") that didn't match the topic, the payoff too late, the title truncated, too much reading.
+
+**New rules from Case 11:**
+- ~1:15–1:20 (user minimum ~1:15)
+- the hook is on frame 0
+- the answer by ~10 s
+- quick cuts plus a slow zoom
+- big 3–5-word captions for sound-off viewing
+- fewer words per scene
+- a looped ending
+- colour per section
+- Engine: `tools/render_engine_v3.py`
+
+**TTS voiceover:** blocked (huggingface.co is denied by the environment network policy; edge-tts fails TLS). The user can allow huggingface.co in Network access to enable an offline British voice (Piper).
+
+| | Case 11 | Case 12 |
+|---|---|---|
+| Short | 13, Data & privacy | 15, Just sue them |
+| Hook | "SENT." → "To the wrong Sarah." | "Just sue them." → "How long does that take?" → 41 WEEKS |
+| Law/source | ICO 72-hours guidance (quoted); UK GDPR Art. 33 | MoJ Civil Justice Stats Q2 2026 (41.0 weeks, quoted); PD Pre-Action Conduct; mediation ≤ £10,000 |
+| Length | 1:19 (2,364 frames) | 1:16 (2,280 frames) |
+| Video | `videos/dogetlawyer_case-file-11_1080x1920.mp4` | `videos/dogetlawyer_case-file-12_1080x1920.mp4` |
+| Script + description | `scripts/case-11_data-breach-wrong-email.md` | `scripts/case-12_just-sue-them-small-claims.md` |
+| Fonts | Sora, Figtree, Spline Sans Mono, Crimson Pro | Barlow Condensed, Rubik, Azeret Mono, Spectral |
+
+- Shorts 12 (voice) and 14 (Tele-legal guarantee) are still gated, so they were skipped.
+- Remaining Shorts with no video: 05 harassment, 06 probation, 07 sick pay, 08 paternity (all employment, with law-date checks).
+- [ ] Record the VOs · [ ] Boss-review PDFs for 11 and 12 (on request)

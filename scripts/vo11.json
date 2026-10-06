@@ -1,0 +1,148 @@
+{
+ "sc": [
+  [
+   0.0,
+   2.8,
+   "SENT",
+   [
+    "You just emailed a signed contract."
+   ]
+  ],
+  [
+   2.8,
+   6.199999999999999,
+   "SENT",
+   [
+    "To the wrong Sarah."
+   ]
+  ],
+  [
+   6.199999999999999,
+   10.6,
+   "SENT",
+   [
+    "Home address. Bank details. Signature. Date of birth."
+   ]
+  ],
+  [
+   10.6,
+   15.2,
+   "SENT",
+   [
+    "That's a personal data breach. And it's easier to do than you think."
+   ]
+  ],
+  [
+   15.2,
+   22.2,
+   "THE RULE",
+   [
+    "Even the ICO, the UK's data watchdog, uses this exact example.",
+    "An email sent to the wrong person."
+   ]
+  ],
+  [
+   22.2,
+   28.4,
+   "THE RULE",
+   [
+    "If it's likely to put people at risk, you may have to report it to the ICO.",
+    "Within seventy-two hours."
+   ]
+  ],
+  [
+   28.4,
+   32.6,
+   "THE RULE",
+   [
+    "And yes, weekends count. The clock starts when you find out."
+   ]
+  ],
+  [
+   32.6,
+   38.4,
+   "THE RULE",
+   [
+    "And personal data isn't just bank details.",
+    "Names, addresses, emails, signatures. Contracts are full of it."
+   ]
+  ],
+  [
+   38.4,
+   41.6,
+   "3 CHECKS",
+   [
+    "So before you hit send, three quick checks."
+   ]
+  ],
+  [
+   41.6,
+   48.2,
+   "CHECK 1",
+   [
+    "One. Check the full email address.",
+    "Not just the first name autocomplete gives you."
+   ]
+  ],
+  [
+   48.2,
+   55.2,
+   "CHECK 2",
+   [
+    "Two. Only send what's needed.",
+    "Do they really need the passport copy and the bank details?"
+   ]
+  ],
+  [
+   55.2,
+   62.0,
+   "CHECK 3",
+   [
+    "Three. If it does go wrong, write it down.",
+    "What happened, who it affected, and what you did about it."
+   ]
+  ],
+  [
+   62.0,
+   69.6,
+   "ONE PLACE",
+   [
+    "And fewer attachments flying about helps too.",
+    "Dogetlawyer keeps every contract in one place, with someone responsible for each one."
+   ]
+  ],
+  [
+   69.6,
+   73.8,
+   "YOUR TURN",
+   [
+    "Be honest. Ever sent one to the wrong person? Yes or no."
+   ]
+  ],
+  [
+   73.8,
+   78.8,
+   "DOGETLAWYER",
+   [
+    "Check the name. Then hit send. Dogetlawyer dot com, link in bio."
+   ]
+  ]
+ ],
+ "th": [
+  "Hook \u00b7 graphite & cobalt",
+  "Hook \u00b7 graphite & cobalt",
+  "Hook \u00b7 graphite & cobalt",
+  "Hook \u00b7 graphite & cobalt",
+  "The rule \u00b7 teal ink",
+  "The rule \u00b7 teal ink",
+  "The rule \u00b7 teal ink",
+  "The rule \u00b7 teal ink",
+  "3 checks \u00b7 midnight violet",
+  "3 checks \u00b7 midnight violet",
+  "3 checks \u00b7 midnight violet",
+  "3 checks \u00b7 midnight violet",
+  "3 checks \u00b7 midnight violet",
+  "Hook \u00b7 graphite & cobalt",
+  "Hook \u00b7 graphite & cobalt"
+ ]
+}
