@@ -2,31 +2,31 @@
  "sc": [
   [
    0.0,
-   2.8,
+   3.0,
    "JUST SUE THEM",
    [
-    "Customer won't pay? \u201cJust sue them.\u201d"
+    "Your customer owes you eight grand. Just sue them, right?"
    ]
   ],
   [
-   2.8,
-   6.0,
+   3.0,
+   6.6,
    "JUST SUE THEM",
    [
-    "Easy to say. But how long does that take?"
+    "So you go to court. Typical wait to get to a trial? Forty-one weeks."
    ]
   ],
   [
-   6.0,
-   10.8,
+   6.6,
+   10.2,
    "JUST SUE THEM",
    [
-    "Forty-one weeks. That's the typical wait for a small claim to reach a trial."
+    "Stick around. There's a smarter move, and it starts before anything goes wrong."
    ]
   ],
   [
-   10.8,
-   17.4,
+   10.2,
+   16.799999999999997,
    "THE WAIT",
    [
     "That's the government's own figure, for April to June this year,",
@@ -34,8 +34,8 @@
    ]
   ],
   [
-   17.4,
-   22.4,
+   16.799999999999997,
+   21.799999999999997,
    "THE WAIT",
    [
     "That's over nine months.",
@@ -43,8 +43,8 @@
    ]
   ],
   [
-   22.4,
-   28.2,
+   21.799999999999997,
+   27.599999999999998,
    "THE WAIT",
    [
     "And even if you win, a judgment isn't cash in the bank.",
@@ -52,16 +52,16 @@
    ]
   ],
   [
-   28.2,
-   31.599999999999998,
+   27.599999999999998,
+   30.999999999999996,
    "THE WAIT",
    [
     "So court isn't a quick cash fix."
    ]
   ],
   [
-   31.599999999999998,
-   38.8,
+   30.999999999999996,
+   38.199999999999996,
    "WHAT HELPS",
    [
     "Here's what actually helps. One. Know exactly what was agreed.",
@@ -69,8 +69,8 @@
    ]
   ],
   [
-   38.8,
-   46.0,
+   38.199999999999996,
+   45.4,
    "WHAT HELPS",
    [
     "Two. Send a letter before claim.",
@@ -78,8 +78,8 @@
    ]
   ],
   [
-   46.0,
-   52.6,
+   45.4,
+   52.0,
    "WHAT HELPS",
    [
     "Three. Expect mediation.",
@@ -87,16 +87,16 @@
    ]
   ],
   [
-   52.6,
-   56.4,
+   52.0,
+   55.8,
    "WHAT HELPS",
    [
     "And the best time to prepare for all this? Before you sign."
    ]
   ],
   [
-   56.4,
-   65.6,
+   55.8,
+   65.0,
    "BE READY",
    [
     "That's where Dogetlawyer helps. Every contract in one place,",
@@ -105,16 +105,16 @@
    ]
   ],
   [
-   65.6,
-   70.0,
+   65.0,
+   69.4,
    "YOUR TURN",
    [
     "What's the longest you've waited to get paid? Comment it."
    ]
   ],
   [
-   70.0,
-   76.0,
+   69.4,
+   75.4,
    "DOGETLAWYER",
    [
     "So before you say just sue them, know what you signed. Dogetlawyer dot com, link in bio."

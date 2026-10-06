@@ -1138,3 +1138,18 @@ Next two Shorts after 09 (copyright): **Short 10, business health** and **Short 
 - Shorts 12 (voice) and 14 (Tele-legal guarantee) are still gated, so they were skipped.
 - Remaining Shorts with no video: 05 harassment, 06 probation, 07 sick pay, 08 paternity (all employment, with law-date checks).
 - [ ] Record the VOs · [ ] Boss-review PDFs for 11 and 12 (on request)
+
+### Cases 11 and 12: hook v2 and catchier thumbnails (6 Oct 2026)
+
+- **Feedback:** "thumbnails should be catchy… change the hooks so from the very beginning the audience is hooked".
+- **Case 11:** a red 72:00:00 clock ticks from frame 0, with the email, a SENT stamp and "BANK DETAILS. SENT TO A STRANGER." Then "AUTOCOMPLETE PICKED THE WRONG SARAH", then "AND A CLOCK MAY HAVE JUST STARTED".
+- **Case 12:** an £8,400 UNPAID invoice and "JUST SUE THEM?". Then "SEE YOU IN 41 WEEKS" with a racing week counter, then the open loop "THERE'S A SMARTER MOVE".
+- **Thumbnails v2** (`tools/thumbs11_12_v2.py`):
+  - 2–3 huge words, with glow and shadow
+  - one hero object
+  - red radial glow
+  - a reaction emoji (😱 / 🤯)
+  - a red banner or arrow
+  - they match the first frame
+- **New lengths:** Case 11 is 1:19 (2,358 frames); Case 12 is 1:15 (2,262 frames). Titles are updated to match the hooks.
+- **Rule going forward:** the first frame and the thumbnail must show the same hero image, and something must move from frame 0.

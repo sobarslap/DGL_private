@@ -2,39 +2,39 @@
  "sc": [
   [
    0.0,
-   2.8,
+   3.0,
    "SENT",
    [
-    "You just emailed a signed contract."
+    "You just sent a stranger your client's bank details."
    ]
   ],
   [
-   2.8,
-   6.199999999999999,
+   3.0,
+   6.4,
    "SENT",
    [
-    "To the wrong Sarah."
+    "Autocomplete picked the wrong Sarah."
    ]
   ],
   [
-   6.199999999999999,
-   10.6,
+   6.4,
+   10.4,
    "SENT",
    [
-    "Home address. Bank details. Signature. Date of birth."
+    "And a seventy-two hour clock may have just started."
    ]
   ],
   [
-   10.6,
-   15.2,
+   10.4,
+   15.0,
    "SENT",
    [
-    "That's a personal data breach. And it's easier to do than you think."
+    "Because that's a personal data breach. And it's easier to do than you think."
    ]
   ],
   [
-   15.2,
-   22.2,
+   15.0,
+   22.0,
    "THE RULE",
    [
     "Even the ICO, the UK's data watchdog, uses this exact example.",
@@ -42,8 +42,8 @@
    ]
   ],
   [
-   22.2,
-   28.4,
+   22.0,
+   28.2,
    "THE RULE",
    [
     "If it's likely to put people at risk, you may have to report it to the ICO.",
@@ -51,16 +51,16 @@
    ]
   ],
   [
-   28.4,
-   32.6,
+   28.2,
+   32.4,
    "THE RULE",
    [
     "And yes, weekends count. The clock starts when you find out."
    ]
   ],
   [
-   32.6,
-   38.4,
+   32.4,
+   38.199999999999996,
    "THE RULE",
    [
     "And personal data isn't just bank details.",
@@ -68,16 +68,16 @@
    ]
   ],
   [
-   38.4,
-   41.6,
+   38.199999999999996,
+   41.4,
    "3 CHECKS",
    [
     "So before you hit send, three quick checks."
    ]
   ],
   [
-   41.6,
-   48.2,
+   41.4,
+   48.0,
    "CHECK 1",
    [
     "One. Check the full email address.",
@@ -85,8 +85,8 @@
    ]
   ],
   [
-   48.2,
-   55.2,
+   48.0,
+   55.0,
    "CHECK 2",
    [
     "Two. Only send what's needed.",
@@ -94,8 +94,8 @@
    ]
   ],
   [
-   55.2,
-   62.0,
+   55.0,
+   61.8,
    "CHECK 3",
    [
     "Three. If it does go wrong, write it down.",
@@ -103,8 +103,8 @@
    ]
   ],
   [
-   62.0,
-   69.6,
+   61.8,
+   69.39999999999999,
    "ONE PLACE",
    [
     "And fewer attachments flying about helps too.",
@@ -112,16 +112,16 @@
    ]
   ],
   [
-   69.6,
-   73.8,
+   69.39999999999999,
+   73.6,
    "YOUR TURN",
    [
     "Be honest. Ever sent one to the wrong person? Yes or no."
    ]
   ],
   [
-   73.8,
-   78.8,
+   73.6,
+   78.6,
    "DOGETLAWYER",
    [
     "Check the name. Then hit send. Dogetlawyer dot com, link in bio."

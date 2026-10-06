@@ -157,10 +157,54 @@ def s14(c):
 def close(c):
     close_card(c, ["BEFORE “JUST SUE", "THEM”… KNOW WHAT", "YOU SIGNED."], "Every contract. Every key date. One place.")
 
+# ---------------------------------------------------------------- v2 hook: unpaid invoice + racing week counter from frame 0
+RED = hexc("#FF3B30")
+_ST = {}
+def stamp(word, size, ang):
+    k = (word, size, ang)
+    if k not in _ST:
+        from PIL import ImageDraw
+        f = F(E.HEAD, size); w = int(tw(f, word) + size * 0.8); h = int(size * 1.4)
+        im = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+        d.rounded_rectangle([4, 4, w - 5, h - 5], radius=int(size * 0.16), outline=RED + (255,), width=max(6, size // 10))
+        d.text((w / 2, h / 2), word, font=f, fill=RED + (255,), anchor="mm")
+        _ST[k] = im.rotate(ang, expand=True, resample=Image.BICUBIC)
+    return _ST[k]
+
+def invoice(c, y0):
+    c.d.rounded_rectangle([M, y0, W - M, y0 + 400], radius=22, fill=PAPER)
+    text(c.d, M + 40, y0 + 36, "INVOICE #0412", F(E.MONO_B, 30), GREY, tr=2)
+    text(c.d, M + 40, y0 + 90, "£8,400", F(E.HEAD, 170), INK)
+    text(c.d, M + 40, y0 + 300, "Due: 30 days · now 94 days overdue", F(E.BODY_B, 34), RED)
+    st = stamp("UNPAID", 110, 10); c.im.paste(st, (W - M - st.width + 10, y0 + 150), st)
+
+def weeks_bar(c, n, y):
+    c.d.rounded_rectangle([M, y, W - M, y + 44], radius=22, fill=c.c("panel", 1))
+    c.d.rounded_rectangle([M, y, M + max(44, int(CW * n / 41)), y + 44], radius=22, fill=c.c("acc", 1))
+    text(c.d, M, y + 64, f"WEEK {n} OF 41", F(E.MONO_B, 34), c.c("acc", 1), tr=2)
+    text(c.d, W - M, y + 64, "…STILL WAITING", F(E.MONO, 28), c.c("dim", 1), tr=1, align="r")
+
+def h1(c):
+    invoice(c, 330)
+    c.head(["JUST SUE", "THEM?"], 830, 300, 0.0, role=["fg", "acc"])
+
+def h2(c):
+    n = max(1, min(41, 1 + int(40 * E.cl((c.u - 0.2) / 2.6))))
+    c.mono("SO YOU TAKE THEM TO COURT", M, 320, 30, 0.0)
+    c.head(["SEE YOU IN"], 380, 170, 0.0)
+    c.head(["41 WEEKS."], 580, 300, 0.0, role="acc")
+    weeks_bar(c, n, 960)
+    c.mono("TYPICAL WAIT · SMALL CLAIM TO TRIAL · MoJ, APR–JUN 2026", M, 1130, 22, 0.4)
+
+def h3(c):
+    c.mono("STICK AROUND", M, 440, 32, 0.0)
+    c.head(["THERE’S A", "SMARTER", "MOVE."], 500, 270, 0.0, role=["fg", "fg", "acc"], stag=0.12)
+    c.para("And it starts before anything goes wrong.", 1240, 44, 0.8, role="mut", fn=E.SERIF)
+
 SCENES = [
-    (2.8, "JUST SUE THEM", False, ["Customer won't pay? “Just sue them.”"], s1),
-    (3.2, "JUST SUE THEM", False, ["Easy to say. But how long does that take?"], s2),
-    (4.8, "JUST SUE THEM", False, ["Forty-one weeks. That's the typical wait for a small claim to reach a trial."], s3),
+    (3.0, "JUST SUE THEM", True, ["Your customer owes you eight grand. Just sue them, right?"], h1),
+    (3.6, "JUST SUE THEM", False, ["So you go to court. Typical wait to get to a trial? Forty-one weeks."], h2),
+    (3.6, "JUST SUE THEM", False, ["Stick around. There's a smarter move, and it starts before anything goes wrong."], h3),
     (6.6, "THE WAIT", False, ["That's the government's own figure, for April to June this year,", "for cases that went all the way to a trial."], s4),
     (5.0, "THE WAIT", False, ["That's over nine months.", "Of chasing, waiting, and paying your own bills in the meantime."], s5),
     (5.8, "THE WAIT", False, ["And even if you win, a judgment isn't cash in the bank.", "Getting paid can be a whole other step."], s6),

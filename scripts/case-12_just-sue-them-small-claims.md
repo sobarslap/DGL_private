@@ -2,7 +2,7 @@
 
 _6 Oct 2026 · Short 15 (Late payment) · retention format (engine v3) · colour per section_
 
-**Spec:** 1:16 · 1080×1920 · 30 fps · sound-off captions burned in · silent AAC track for VO  
+**Spec:** 1:15 · 1080×1920 · 30 fps · sound-off captions burned in · silent AAC track for VO  
 **Video:** `videos/dogetlawyer_case-file-12_1080x1920.mp4` · **Renderer:** `tools/render_case12.py` · **Thumbnails:** `thumbnails/case-12_*`
 
 **Look:** Oxblood & black (hook) → slate navy (the wait) → olive & charcoal (what helps) → deep indigo (be ready) → back to oxblood. Barlow Condensed Black / Rubik / Azeret Mono / Spectral italic.
@@ -18,33 +18,40 @@ _6 Oct 2026 · Short 15 (Late payment) · retention format (engine v3) · colour
 - **Looped ending:** the last line echoes the hook.
 - Still multi-colour **by section, never per scene**.
 
+## Hook v2 (6 Oct 2026, after feedback: "make it catchy from the very beginning")
+
+- **Frame 0:** an **£8,400 invoice with a red UNPAID stamp** (fictional) and **"JUST SUE THEM?"**. VO: "Your customer owes you eight grand. Just sue them, right?"
+- **0:03:** **"SEE YOU IN 41 WEEKS."** A progress bar races "WEEK 1 OF 41 … STILL WAITING", with the source line (MoJ, Apr–Jun 2026).
+- **0:07:** open loop: **"THERE'S A SMARTER MOVE."** ("Stick around… it starts before anything goes wrong.")
+- **Thumbnail / cover:** a huge glowing **"41 WEEKS"**, a red banner "JUST TO GET TO COURT", the UNPAID invoice, 🤯, and "'JUST SUE THEM'?". This matches the opening frames.
+
 ## Voiceover, clean read
 
-> Customer won't pay? “Just sue them.” Easy to say. But how long does that take? Forty-one weeks. That's the typical wait for a small claim to reach a trial. That's the government's own figure, for April to June this year, for cases that went all the way to a trial. That's over nine months. Of chasing, waiting, and paying your own bills in the meantime. And even if you win, a judgment isn't cash in the bank. Getting paid can be a whole other step. So court isn't a quick cash fix. Here's what actually helps. One. Know exactly what was agreed. The signed contract, the payment terms, and proof you delivered. Two. Send a letter before claim. Courts expect you to try and sort it out before you go to court. Three. Expect mediation. It's now a key step for small claims up to ten thousand pounds. And the best time to prepare for all this? Before you sign. That's where Dogetlawyer helps. Every contract in one place, with the signed version, the payment terms and the key dates on record. So if it ever comes to it, you're ready. What's the longest you've waited to get paid? Comment it. So before you say just sue them, know what you signed. Dogetlawyer dot com, link in bio.
+> Your customer owes you eight grand. Just sue them, right? So you go to court. Typical wait to get to a trial? Forty-one weeks. Stick around. There's a smarter move, and it starts before anything goes wrong. That's the government's own figure, for April to June this year, for cases that went all the way to a trial. That's over nine months. Of chasing, waiting, and paying your own bills in the meantime. And even if you win, a judgment isn't cash in the bank. Getting paid can be a whole other step. So court isn't a quick cash fix. Here's what actually helps. One. Know exactly what was agreed. The signed contract, the payment terms, and proof you delivered. Two. Send a letter before claim. Courts expect you to try and sort it out before you go to court. Three. Expect mediation. It's now a key step for small claims up to ten thousand pounds. And the best time to prepare for all this? Before you sign. That's where Dogetlawyer helps. Every contract in one place, with the signed version, the payment terms and the key dates on record. So if it ever comes to it, you're ready. What's the longest you've waited to get paid? Comment it. So before you say just sue them, know what you signed. Dogetlawyer dot com, link in bio.
 
 ## Timeline
 
 | Time | Section | Colour | Voiceover |
 |---|---|---|---|
-| 0:00–0:03 | Just Sue Them | Hook · oxblood & black | Customer won't pay? “Just sue them.” |
-| 0:03–0:06 | Just Sue Them | Hook · oxblood & black | Easy to say. But how long does that take? |
-| 0:06–0:11 | Just Sue Them | Hook · oxblood & black | Forty-one weeks. That's the typical wait for a small claim to reach a trial. |
-| 0:11–0:17 | The Wait | The wait · slate navy | That's the government's own figure, for April to June this year, for cases that went all the way to a trial. |
+| 0:00–0:03 | Just Sue Them | Hook · oxblood & black | Your customer owes you eight grand. Just sue them, right? |
+| 0:03–0:07 | Just Sue Them | Hook · oxblood & black | So you go to court. Typical wait to get to a trial? Forty-one weeks. |
+| 0:07–0:10 | Just Sue Them | Hook · oxblood & black | Stick around. There's a smarter move, and it starts before anything goes wrong. |
+| 0:10–0:17 | The Wait | The wait · slate navy | That's the government's own figure, for April to June this year, for cases that went all the way to a trial. |
 | 0:17–0:22 | The Wait | The wait · slate navy | That's over nine months. Of chasing, waiting, and paying your own bills in the meantime. |
 | 0:22–0:28 | The Wait | The wait · slate navy | And even if you win, a judgment isn't cash in the bank. Getting paid can be a whole other step. |
-| 0:28–0:32 | The Wait | The wait · slate navy | So court isn't a quick cash fix. |
-| 0:32–0:39 | What Helps | What helps · olive & charcoal | Here's what actually helps. One. Know exactly what was agreed. The signed contract, the payment terms, and proof you delivered. |
-| 0:39–0:46 | What Helps | What helps · olive & charcoal | Two. Send a letter before claim. Courts expect you to try and sort it out before you go to court. |
-| 0:46–0:53 | What Helps | What helps · olive & charcoal | Three. Expect mediation. It's now a key step for small claims up to ten thousand pounds. |
-| 0:53–0:56 | What Helps | What helps · olive & charcoal | And the best time to prepare for all this? Before you sign. |
-| 0:56–1:06 | Be Ready | Be ready · deep indigo | That's where Dogetlawyer helps. Every contract in one place, with the signed version, the payment terms and the key dates on record. So if it ever comes to it, you're ready. |
-| 1:06–1:10 | Your Turn | Be ready · deep indigo | What's the longest you've waited to get paid? Comment it. |
-| 1:10–1:16 | Dogetlawyer | Hook · oxblood & black | So before you say just sue them, know what you signed. Dogetlawyer dot com, link in bio. |
+| 0:28–0:31 | The Wait | The wait · slate navy | So court isn't a quick cash fix. |
+| 0:31–0:38 | What Helps | What helps · olive & charcoal | Here's what actually helps. One. Know exactly what was agreed. The signed contract, the payment terms, and proof you delivered. |
+| 0:38–0:45 | What Helps | What helps · olive & charcoal | Two. Send a letter before claim. Courts expect you to try and sort it out before you go to court. |
+| 0:45–0:52 | What Helps | What helps · olive & charcoal | Three. Expect mediation. It's now a key step for small claims up to ten thousand pounds. |
+| 0:52–0:56 | What Helps | What helps · olive & charcoal | And the best time to prepare for all this? Before you sign. |
+| 0:56–1:05 | Be Ready | Be ready · deep indigo | That's where Dogetlawyer helps. Every contract in one place, with the signed version, the payment terms and the key dates on record. So if it ever comes to it, you're ready. |
+| 1:05–1:09 | Your Turn | Be ready · deep indigo | What's the longest you've waited to get paid? Comment it. |
+| 1:09–1:15 | Dogetlawyer | Hook · oxblood & black | So before you say just sue them, know what you signed. Dogetlawyer dot com, link in bio. |
 
 ## Title, description, tags
 
-- **Title:** "Just Sue Them" Takes 41 Weeks 🇬🇧 What UK Small Businesses Should Do Instead
-- **Alt title:** Customer Won't Pay? How Long Small Claims Court Really Takes (UK) 🇬🇧
+- **Title:** 41 Weeks Just to Get to Court? Don't "Just Sue Them" 🇬🇧
+- **Alt title:** Customer Owes You £8,400? Why Suing Takes 41 Weeks (UK Small Claims) 🇬🇧
 - **Pinned comment:** Longest you've waited to get paid: 30, 60, 90 or 90+ days? 👇
 
 > Customer won't pay? "Just sue them." 🇬🇧 But a **small claim** took a median of **41 weeks** to reach trial in April–June 2026 (Ministry of Justice). And a judgment isn't cash in the bank.
@@ -56,7 +63,7 @@ _6 Oct 2026 · Short 15 (Late payment) · retention format (engine v3) · colour
 > 
 > 👉 Keep every contract, payment term and key date in one place at dogetlawyer.com (link in bio)
 > 
-> 0:00 Just sue them? · 0:06 41 weeks · 0:11 The government's figure · 0:22 A judgment isn't cash · 0:32 What actually helps · 0:56 Before you sign · 1:06 Your turn
+> 0:00 Just sue them? · 0:03 41 weeks · 0:10 The government's figure · 0:22 A judgment isn't cash · 0:31 What actually helps · 0:52 Before you sign · 1:05 Your turn
 > 
 > Sources: Ministry of Justice, Civil Justice Statistics Quarterly: April to June 2026 (median time from issue to trial for small claims; cases concluding at trial only; mediation for small claims up to £10,000); Practice Direction – Pre-Action Conduct and Protocols. General position in England & Wales; outcomes turn on the facts. All names and figures shown are fictional examples. Dogetlawyer is contract management software for UK small businesses, not a substitute for legal advice.
 > 

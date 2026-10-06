@@ -178,11 +178,50 @@ def s14(c):
 def close(c):
     close_card(c, ["CHECK THE NAME.", "THEN HIT SEND."], "Every contract. One place.")
 
+# ---------------------------------------------------------------- v2 hook: ticking 72-hour clock from frame 0
+RED = hexc("#FF3B30")
+def timer(c, gt, y, size, label=True):
+    rem = max(0.0, 72 * 3600 - gt); hh, r = divmod(rem, 3600); mm, ss = divmod(r, 60); cc = int((ss % 1) * 100)
+    main = f"{int(hh):02d}:{int(mm):02d}:{int(ss):02d}"; f = F(E.MONO_B, size); fs = F(E.MONO_B, int(size * 0.5))
+    w = tw(f, main) + tw(fs, f".{cc:02d}") + 80; x0 = (W - w) / 2
+    c.d.rounded_rectangle([x0, y, x0 + w, y + size * 1.35], radius=24, fill=mix(c.T["bg"], (0, 0, 0), 0.55), outline=RED, width=5)
+    text(c.d, x0 + 40, y + size * 0.12, main, f, RED)
+    text(c.d, x0 + 40 + tw(f, main), y + size * 0.12 + size * 0.42, f".{cc:02d}", fs, RED)
+    if label: text(c.d, W / 2, y - 44, "THE 72-HOUR CLOCK", F(E.MONO_B, 26), RED, tr=3, align="c")
+
+_ST = {}
+def stamp(word, size, ang):
+    k = (word, size, ang)
+    if k not in _ST:
+        f = F(E.HEAD, size); w = int(tw(f, word) + size * 0.8); h = int(size * 1.5)
+        im = Image.new("RGBA", (w, h), (0, 0, 0, 0)); from PIL import ImageDraw
+        d = ImageDraw.Draw(im); d.rounded_rectangle([4, 4, w - 5, h - 5], radius=int(size * 0.18), outline=RED + (255,), width=max(6, size // 10))
+        d.text((w / 2, h / 2), word, font=f, fill=RED + (255,), anchor="mm")
+        _ST[k] = im.rotate(ang, expand=True, resample=Image.BICUBIC)
+    return _ST[k]
+
+def h1(c):
+    timer(c, c.u, 330, 110)
+    email(c, 560, 0.0, "Sarah Bentley", "sarah.bentley@brightwell…")
+    st = stamp("SENT", 110, 12); c.im.paste(st, (W - M - st.width + 10, 690), st)
+    c.head(["BANK DETAILS.", "SENT TO A", "STRANGER."], 960, 150, 0.0, role=["fg", "fg", "acc"])
+
+def h2(c):
+    timer(c, 3.0 + c.u, 330, 110)
+    email(c, 560, 0.0, "Sarah Bentley", "sarah.bentley@brightwell…", wrong=True, t_wrong=0.0)
+    c.mono("YOU MEANT SARAH BENNETT", M, 920, 28, 0.3, role="acc", fn=E.MONO_B)
+    c.head(["AUTOCOMPLETE", "PICKED THE", "WRONG SARAH."], 990, 140, 0.1, role=["fg", "fg", "acc"], stag=0.12)
+
+def h3(c):
+    c.head(["AND A CLOCK", "MAY HAVE JUST", "STARTED."], 380, 150, 0.0, role=["fg", "fg", "acc"], stag=0.12)
+    timer(c, 6.4 + c.u, 900, 128, label=False)
+    c.para("If it puts people at risk, you may need to report it.", 1200, 40, 0.8, role="mut", fn=E.SERIF)
+
 SCENES = [
-    (2.8, "SENT", False, ["You just emailed a signed contract."], s1),
-    (3.4, "SENT", False, ["To the wrong Sarah."], s2),
-    (4.4, "SENT", False, ["Home address. Bank details. Signature. Date of birth."], s3),
-    (4.6, "SENT", False, ["That's a personal data breach. And it's easier to do than you think."], s4),
+    (3.0, "SENT", True, ["You just sent a stranger your client's bank details."], h1),
+    (3.4, "SENT", True, ["Autocomplete picked the wrong Sarah."], h2),
+    (4.0, "SENT", False, ["And a seventy-two hour clock may have just started."], h3),
+    (4.6, "SENT", False, ["Because that's a personal data breach. And it's easier to do than you think."], s4),
     (7.0, "THE RULE", False, ["Even the ICO, the UK's data watchdog, uses this exact example.", "An email sent to the wrong person."], s5),
     (6.2, "THE RULE", False, ["If it's likely to put people at risk, you may have to report it to the ICO.", "Within seventy-two hours."], s6),
     (4.2, "THE RULE", False, ["And yes, weekends count. The clock starts when you find out."], s7),
