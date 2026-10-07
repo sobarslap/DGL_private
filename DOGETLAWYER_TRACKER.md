@@ -1153,3 +1153,20 @@ Next two Shorts after 09 (copyright): **Short 10, business health** and **Short 
   - they match the first frame
 - **New lengths:** Case 11 is 1:19 (2,358 frames); Case 12 is 1:15 (2,262 frames). Titles are updated to match the hooks.
 - **Rule going forward:** the first frame and the thumbnail must show the same hero image, and something must move from frame 0.
+
+## 28. Case Files 13 and 14 (7 Oct 2026)
+
+Next two Shorts: **05 customer harassment** and **06 probation review**. Both were built in the retention format (engine v3), with catchy thumbnails that match the first frame. Law dates were verified on GOV.UK and business.gov.uk on 7 Oct 2026.
+
+| | Case 13 | Case 14 |
+|---|---|---|
+| Short | 05, Customer harassment | 06, Probation review |
+| Hook (frame 0) | VIP customer message + "YOUR BEST CUSTOMER. YOUR STAFF'S WORST DAY." → "FROM 30 OCT, THAT CAN BE ON YOU." → "NOT THEM. YOU." | Diary with 3 crossed-out reviews + POSTPONED AGAIN stamp → "2 YEARS" struck out → "6 MONTHS." → "your probation clause won't change that" |
+| Law | ERA 2025: all reasonable steps (sexual harassment) + duty not to permit third-party harassment, from 30 Oct 2026, GB (business.gov.uk quoted) | ERA 2025 s.25: ordinary unfair dismissal qualifying period 2 years → 6 months for dismissals from 1 Jan 2027; compensatory awards uncapped (business.gov.uk quoted; GOV.UK timeline) |
+| Steps | Policy covering customers · easy reporting · client contract terms · training | Diarise end dates · hold and record the review · check the contract |
+| Length | 1:21 (2,418 frames) | 1:15 (2,256 frames) |
+| Fonts | Epilogue, Albert Sans, Martian Mono, Gelasio | League Gothic, Work Sans, Overpass Mono, Literata |
+| Files | `videos/…-13_*`, `thumbnails/case-13_*`, `scripts/case-13_customer-harassment-third-party.md` | `videos/…-14_*`, `thumbnails/case-14_*`, `scripts/case-14_probation-unfair-dismissal-6-months.md` |
+
+- Remaining Shorts with no video: 07 sick pay and 08 paternity (both law already in force since 6 Apr 2026, still to verify); 12 and 14 are gated.
+- [ ] Record the VOs · [ ] Review doc/PDF for 13 and 14 (on request)
