@@ -1170,3 +1170,27 @@ Next two Shorts: **05 customer harassment** and **06 probation review**. Both we
 
 - Remaining Shorts with no video: 07 sick pay and 08 paternity (both law already in force since 6 Apr 2026, still to verify); 12 and 14 are gated.
 - [ ] Record the VOs · [ ] Review doc/PDF for 13 and 14 (on request)
+
+## 29. Boss packs: Delivery 01 and 02, 3-minute Shorts (10 Oct 2026)
+
+The boss sent two campaign packs, dated 7 Oct 2026, and asked for 3-minute content that explains each product in detail. Both videos follow the pack's master script word for word, as product **PREVIEWs**. The pack's own labels and wording rules are kept:
+- PREVIEW pill on proposed screens
+- FICTIONAL EXAMPLE on demo data
+- INTEGRATION PLANNED on integrations
+- no prices, certifications, savings or competitor claims
+
+| | Delivery 01 | Delivery 02 |
+|---|---|---|
+| Product | Matter & Assurance + Upload & Go | Business Intelligence |
+| Audience | UK solicitors, barristers, practice managers (E&W solicitor pilot first) | UK SME owners (B2B service businesses) |
+| Hook (frame 0) | Client email at 17:40 "Can I sign this today?" + "CAN THEY SIGN?" → v2 adds "subject to clause 8.3" | "SALES: UP." chart next to Friday's £17,000 of bills → £8,000 invoice → "CAN YOU COVER FRIDAY?" |
+| Real sources | Cavendish/ParkingEye [2015] UKSC 67; Ayinde/Al-Haroun [2025] EWHC 1383 (Admin); SRA/BSB on a separate card | Pack's fictional fixtures only (£12k / £17k / £8k / £3k; A = £3,000 remains, B = £5,000 gap) |
+| Reveal at 2:29 | The cap may not cover the indemnity → Request amendment | Both scenarios together |
+| Close | "This is general legal information, not legal advice." | "Illustrative figures. Check your business records before acting." |
+| Length | 2:59.5 (5,385 frames) | 2:59.5 (5,385 frames) |
+| Fonts | Spectral, Figtree, Red Hat Mono, Newsreader | Barlow Condensed, Plus Jakarta Sans, Azeret Mono, Crimson Pro |
+| Files | `videos/dogetlawyer_delivery-01_*`, `thumbnails/delivery-01_*`, `scripts/delivery-01_matter-assurance-upload-go_3min.md` | `videos/dogetlawyer_delivery-02_*`, `thumbnails/delivery-02_*`, `scripts/delivery-02_business-intelligence-uk-smes_3min.md` |
+
+- **Renderers:** `tools/render_delivery01.py`, `tools/render_delivery02.py` and `tools/render_delivery_helpers.py` (all engine v3); `tools/thumbs_delivery01_02.py`.
+- **Not part of this set:** Deliveries 03 (New Telelegal) and 04 (Business Health) are separate packs still to come.
+- [ ] Record the VOs · [ ] Qualified legal review of the D01 authorities · [ ] Founder confirms the demo route and availability
