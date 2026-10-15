@@ -3,7 +3,7 @@ Usage: python3 tools/md2pdf.py scripts/case-13_....md OUT.pdf [thumbnail.png] [c
 import os, re, sys
 exec(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '_pdfbase.py')).read())
 src, out = sys.argv[1], sys.argv[2]; imgs = sys.argv[3:]
-EMO.update({'🇬🇧': '', ' 👇': '', '👇': '', '😳': 'a shocked-face emoji'})
+EMO.update({'🇬🇧': '', ' 👇': '', '👇': '', '😳': 'a shocked-face emoji', '⏰': 'an alarm-clock emoji'})
 def inline(t):
     t = X(t)
     t = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', t)
